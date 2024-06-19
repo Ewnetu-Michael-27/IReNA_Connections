@@ -1,9 +1,9 @@
 streamlit
 pandas
 numpy
-pickle
+scikit-learn
 plotly
 networkx
 torch
 torch_geometric
-sklearn
+pickle

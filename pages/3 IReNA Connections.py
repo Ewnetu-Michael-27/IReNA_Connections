@@ -21,7 +21,7 @@ st.title("IReNA Connections")
 #loading the graph data
 #graph_M=nx.read_gexf("graph_trial.gexf")
 
-data=pd.read_csv("data_05_24_ID.csv")
+data=pd.read_csv("data_06_19.csv")
 
 
 with open("graph_trial.pkl", "rb") as f:

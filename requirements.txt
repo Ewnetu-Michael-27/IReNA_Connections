@@ -6,4 +6,3 @@ plotly
 networkx
 torch
 torch_geometric
-pickle

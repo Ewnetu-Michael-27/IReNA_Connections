@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+PIL
+pickle
+plotly
+networkx
+torch
+torch_geometric
+sklearn

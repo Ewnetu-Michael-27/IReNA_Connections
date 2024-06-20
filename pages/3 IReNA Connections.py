@@ -136,7 +136,7 @@ if st.button("Apply Queery"):
                 line=dict(width=1),
                 )]
 
-    fig.update_layout(title_text="Graph on map", title_x=0.5,
+    fig.update_layout(title_text=f"{options_8}'s Connections", title_x=0.5,
                 font=dict(family='Balto', color='black'),
                 autosize=False,
                 width=1200,

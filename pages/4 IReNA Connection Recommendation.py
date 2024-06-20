@@ -270,5 +270,5 @@ data_2_show=data[data["ID"].isin(dict_recomm.keys())][["First", "Last", "Home In
 data_2_show["Link Formation Likelihood"]=dict_recomm.values()
 
 if st.button("Apply Querry   "):
-    st.write("**Top 10 connection recommendation for **", option_10)
+    st.write("**Top 10 connection recommendation**")
     st.write(data_2_show.reset_index(drop=True))

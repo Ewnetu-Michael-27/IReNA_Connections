@@ -56,7 +56,8 @@ nodes=get_connections(graph_trial, options_8)
 
 
 if st.button("Apply Queery"):
-    st.write(options_8, " is an author in ", str(dict_pub_info[options_8]), " out of the 149 papers. See connection below" )
+    st.write(options_8, " is an author in ", str(dict_pub_info[options_8]), " out of the 149 papers.")
+    st.write(f"See connection below with **{len(nodes)}** members." )
     st.write(nodes)
 
 

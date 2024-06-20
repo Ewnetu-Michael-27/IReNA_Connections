@@ -201,7 +201,7 @@ if st.button("Apply Queery "):
             mode='markers',
             text=ids,
             marker=dict(size=8, 
-                        #color= dpcapacity, 
+                        color= "red", 
                         colorscale='matter'
                         ),
             showlegend=False,

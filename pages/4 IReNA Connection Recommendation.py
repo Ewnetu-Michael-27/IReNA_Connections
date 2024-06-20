@@ -271,4 +271,5 @@ data_2_show["Link Formation Likelihood"]=dict_recomm.values()
 
 if st.button("Apply Querry   "):
     st.write("**Top 10 connection recommendation**")
+    st.write("**See Full Table**")
     st.write(data_2_show.reset_index(drop=True))

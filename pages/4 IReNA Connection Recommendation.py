@@ -268,4 +268,6 @@ dict_recomm={k:v for k,v in sorted(dict_recomm.items(), key=lambda item: item[1]
 dict_recomm=dict(list(dict_recomm.items())[:10])
 data_2_show=data[data["ID"].isin(dict_recomm.keys())][["First", "Last", "Home Institution", "Network", "Country", "Position"]]
 data_2_show["Link Formation Likelihood"]=dict_recomm.values()
-st.write(data_2_show.reset_index(drop=True))
+
+if st.button("Apply Querry   "):
+    st.write(data_2_show.reset_index(drop=True))

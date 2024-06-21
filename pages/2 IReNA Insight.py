@@ -56,7 +56,7 @@ fig.update_layout(title_text="Location of Member Institutions", title_x=0.5,
                                     lon=x_center+0.01),
                         pitch=0,
                         zoom=1, 
-                        style='mapbox://styles/ewnetumi/clxp3k6n3034001qm0nlo36dt'
+                        style='mapbox://styles/ewnetumi/clxp33i6h031o01qk1yklbqq1'
                         ),
             margin=dict(t=150)
             )

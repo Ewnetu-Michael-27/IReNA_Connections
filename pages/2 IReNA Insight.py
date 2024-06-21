@@ -29,6 +29,8 @@ lons=list(data_1["Long"])
 x_center = (min(lons) + max(lons))/2
 y_center = (min(lats) + max(lats))/2
 
+mapbox_access_token = 'pk.eyJ1IjoiZXduZXR1bWkiLCJhIjoiY2x4bWJpa21wMDI1cjJrcHZ6Y3J5NXowZCJ9.Uh0I7zo7txKT6h4MuVy-fQ'
+
 fig= go.Figure(go.Scattermapbox(  #trace for nodes
             lat= lats,
             lon=lons,
@@ -48,13 +50,13 @@ fig.update_layout(title_text="Location of Member Institutions", title_x=0.5,
             width=1200,
             height=1200,
             hovermode='closest',
-            mapbox=dict(#accesstoken=mapbox_access_token,
+            mapbox=dict(accesstoken=mapbox_access_token,
                         bearing=0,
                         center=dict(lat=y_center,
                                     lon=x_center+0.01),
                         pitch=0,
                         zoom=1, 
-                        style='carto-positron'
+                        style='mapbox://styles/ewnetumi/clxp33i6h031o01qk1yklbqq1'
                         ),
             margin=dict(t=150)
             )

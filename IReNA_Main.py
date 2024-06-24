@@ -136,5 +136,5 @@ with col4b:
         val=apl_main[options_7b]
         st.write(options_7b, " has published **", str(len(val)), "** IReNA based papers.")
         st.write("")
-        for i in val:
-            st.write(i)
+        for i in range(len(val)):
+            st.write(str(i+1)," ",val[i])

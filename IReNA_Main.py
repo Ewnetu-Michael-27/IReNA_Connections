@@ -137,4 +137,4 @@ with col4b:
         st.write(options_7b, " has published **", str(len(val)), "** IReNA based papers.")
         st.write("")
         for i in range(len(val)):
-            st.write(str(i+1)," ",val[i])
+            st.write(f":red[{str(i+1)}]. ",val[i])

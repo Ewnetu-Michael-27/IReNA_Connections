@@ -19,7 +19,7 @@ st.sidebar.success("Select further options")
 data_1=pd.read_csv("HI_addy.csv")
 
 st.write("**Starting with Insitutions**")
-st.write(str(len(data_1["Institution"]))," Member Institutions. See the map below to see their location.")
+st.write(str(len(data_1["Institution"])), "Member Institutions in ",str(len(data_1["Country"].unique())),"Countries. See the map below to see their location.")
 
 #Get the map center:
 ids=list(data_1["Institution"])
@@ -81,7 +81,7 @@ st.write("")
 st.markdown("***")
 st.write("")
 
-st.header("Focus Area Membership")
+st.header("Focus Area and Project Membership/ Event Participation")
 st.write("")
 st.markdown(""" 
 IReNA is organized into eight focus areas (FA) that address 
@@ -224,7 +224,7 @@ fig_1.update_layout(title_text="IReNA Members in "+option_10A+" Connected Across
               height=1200,
               hovermode='closest',
     
-              mapbox=dict(#accesstoken=mapbox_access_token,
+              mapbox=dict(accesstoken=mapbox_access_token,
                           layers=layers,
                           bearing=0,
                           center=dict(lat=y_center,
@@ -239,4 +239,3 @@ fig_1.update_layout(title_text="IReNA Members in "+option_10A+" Connected Across
 if st.button("Click to see chart"):
     st.write(f"**{len(ids)}** members in **{option_10A}**")
     st.plotly_chart(fig_1)
-

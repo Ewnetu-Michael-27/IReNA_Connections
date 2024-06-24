@@ -8,7 +8,9 @@ import math
 import pickle
 
 st.set_page_config(
-    page_title="IReNA Demo"
+    page_title="IReNA Demo", 
+    layout="wide",
+    
 )
 
 st.sidebar.success("Select further options")

@@ -235,7 +235,7 @@ st.session_state.year_val=st.slider("Slide year to see IReNA connections per pub
 if st.session_state.year_val==2020:
     with open("graph_new_2020.pkl", "rb") as f:
         graph_new=pickle.load(f)
-        opacity=0.5
+        opacity=0.7
 elif st.session_state.year_val==2021:
     with open("graph_new_2021.pkl", "rb") as f:
         graph_new=pickle.load(f)

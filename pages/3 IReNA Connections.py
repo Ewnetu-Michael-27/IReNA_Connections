@@ -9,6 +9,7 @@ from sklearn.metrics import roc_auc_score
 import torch.nn.functional as F 
 import networkx as nx
 import plotly.graph_objs as go
+import plotly.express as px
 
 st.set_page_config(
     page_title="IReNA Connections"
@@ -27,14 +28,193 @@ data=pd.read_csv("data_06_19.csv")
 with open("graph_trial.pkl", "rb") as f:
     graph_trial=pickle.load(f)
 
+graph=nx.read_gexf("graph.gexf")
+
 
 st.write("In the **149** publications from 2020 to 2024, IReNA members were able to collaborate and form connections.")
 
 st.write("")
-st.write("Some insight on the connections:")
+st.write(":red[**What drives connections?**]")
+st.write("In the following section, some insights are provided that shows how IReNA members are forming connections.")
+st.write("")
+
 st.write("**194** IReNA members authored the 149 papers forming **4488** 1-to-1 connections among them.")
+st.write("How prolific are the connections?")
+st.write([
+"1 connection with 15 publications",
+"1 connection with 12 publications", 
+"6 connections with 7 publications each", 
+"6 connections with 5 publications each", 
+"11 connections with 6 publications each", 
+"19 connections with 4 publications each", 
+"77 connections with 3 publications each", 
+"348 connections with 2 publications each", 
+"4019 connections with only 1 publication each" 
+])
 
 
+def analyze_attribute(graph, att: str):
+    dict_val={}
+
+    for u,v in graph.edges():
+        u_val=graph.nodes()[u][att]
+        v_val=graph.nodes()[v][att]
+
+        #create a sorted tuple of the Net attributes
+        net_comb=tuple(sorted([u_val, v_val]))
+
+        if dict_val.get(net_comb,0)==0:
+            dict_val[net_comb]=1
+        else:
+            dict_val[net_comb]+=1
+
+     
+    return {k:v for k,v in sorted(dict_val.items(), key=lambda item: item[1], reverse=True)}
+
+tempo={k:v for k,v in analyze_attribute(graph, "Network").items() if v>87}
+
+
+st.write("")
+st.markdown("***")
+st.write("")
+
+st.write("**How Inter/Intra network connections lead to collaboration.**")
+
+st.write("""The figure on the left shows how network-network connections are leading to publications, 
+         while the figure on the right shows the distribution of each network.
+         """)
+st.write("**:blue[Within Network] vs :red[Across Network]**")
+
+col5a, col6a=st.columns([2,1])
+
+with col5a:
+    fig_a = go.Figure(
+    data=[
+        go.Bar(
+            x=[(i[0]+" - "+i[1]) for i in list(tempo.keys())],
+            y=list(tempo.values()), 
+            marker_color=["blue", "red", "red", "blue", "red", "red", "red", "red", "red", "red", "blue"]
+        )
+    ],
+    layout=go.Layout(
+        title="Network-Network Interactions (Within Network vs Across Network)",
+        xaxis=dict(
+            title="Network-Network"
+        ),
+        yaxis=dict(
+            title="Number of Publications"
+        )
+    )
+)
+
+    st.plotly_chart(fig_a)
+
+with col6a:
+    df=dict(data["Network"].value_counts()*100/data.index.stop)
+    fig_b=px.pie(values=df.values(), names=df.keys(), title="Distribution of Networks")
+    fig_b.update_traces(textposition='inside', textinfo='percent+label')
+    st.plotly_chart(fig_b)
+
+
+st.write("")
+st.write("**How the position of the member impact the formation of the collaboration.**")
+
+st.write("""The figure on the left shows which position-position interaction leads to the most publications, 
+         while the figure on the right shows the distribution of each positions.
+         """)
+
+tempo_1={k:v for k,v in analyze_attribute(graph, "Position").items() if v>=120}
+
+col5b, col6b=st.columns([1.5,1])
+
+with col5b:
+    fig_a1 = go.Figure(
+    data=[
+        go.Bar(
+            x=[(i[0]+" - "+i[1]) for i in list(tempo_1.keys())],
+            y=list(tempo_1.values())
+        )
+    ],
+    layout=go.Layout(
+        title="Position-Position Interactions",
+        xaxis=dict(
+            title="Position-Position"
+        ),
+        yaxis=dict(
+            title="Number of Publications"
+        )
+    )
+)
+
+    st.plotly_chart(fig_a1)
+
+with col6b:
+    df_1=dict(data["Position"].value_counts()*100/data.index.stop)
+    fig_b1=px.pie(values=df_1.values(), names=df_1.keys(), title="Distribution of Position")
+    fig_b1.update_traces(textposition='inside', textinfo='percent+label')
+    st.plotly_chart(fig_b1)
+
+
+st.write("")
+st.write("**How where the position of the member impact the formation of the collaboration.**")
+
+st.write("""The figure on the left shows which Country-Country interaction leads to the most publications, 
+         while the figure on the right shows the distribution of the listed Countries.
+         """)
+
+tempo_2={k:v for k,v in analyze_attribute(graph, "Country").items() if v>=88}
+
+col5c, col6c=st.columns([1.5,1])
+
+with col5c:
+    fig_a2 = go.Figure(
+    data=[
+        go.Bar(
+            x=[(i[0]+" - "+i[1]) for i in list(tempo_2.keys())],
+            y=list(tempo_2.values())
+        )
+    ],
+    layout=go.Layout(
+        title="Country-Country Interactions",
+        xaxis=dict(
+            title="Country-Country"
+        ),
+        yaxis=dict(
+            title="Number of Publications"
+        )
+    )
+)
+
+    st.plotly_chart(fig_a2)
+
+with col6c:
+    df_2=dict(data["Country"].value_counts()*100/data.index.stop)
+    df_2={k:v for k,v in df_2.items() if k in ["USA", "Germany", "United Kingdom", "Italy", "Canada", "Hungary", "Japan", "Netherlands", "Spain", "Australia"]}
+    #fig_b2=px.pie(values=df_2.values(), names=df_2.keys(), title="Distribution of Countries")
+    #fig_b2.update_traces(textposition='inside', textinfo='percent+label')
+    #st.plotly_chart(fig_b2)
+
+    fig_b2 = go.Figure(
+    data=[
+        go.Bar(
+            x=list(df_2.keys()),
+            y=list(df_2.values())
+        )
+    ],
+    layout=go.Layout(
+        title="Distribution of Countries (Percentage)",
+        xaxis=dict(
+            title="Countries"
+        ),
+        yaxis=dict(
+            title="Distribution Percentage"
+        )
+    )
+)
+
+    st.plotly_chart(fig_b2)
+
+#*************************************************************************************************************************************
 
 
 st.write("")

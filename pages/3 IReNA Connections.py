@@ -12,7 +12,7 @@ import plotly.graph_objs as go
 import plotly.express as px
 
 st.set_page_config(
-    page_title="IReNA Connections", 
+    page_title="IReNA Connections",
     layout="wide"
 )
 
@@ -227,21 +227,24 @@ st.write("**IReNA Connections Through out the years**")
 
 graph_new=nx.Graph()
 
-year=st.slider("Slide year to see IReNA connections per publication through out the years", 2020, 2024, 2020)
+if "year_val" not in st.session_state:
+    st.session_state["year_val"]=2020
 
-if year==2020:
+st.session_state.year_val=st.slider("Slide year to see IReNA connections per publication through out the years", 2020, 2024, 2020)
+
+if st.session_state.year_val==2020:
     with open("graph_new_2020.pkl", "rb") as f:
         graph_new=pickle.load(f)
         opacity=0.5
-elif year==2021:
+elif st.session_state.year_val==2021:
     with open("graph_new_2021.pkl", "rb") as f:
         graph_new=pickle.load(f)
         opacity=0.2
-elif year==2022:
+elif st.session_state.year_val==2022:
     with open("graph_new_2022.pkl", "rb") as f:
         graph_new=pickle.load(f)
         opacity=0.02
-elif year==2023:
+elif st.session_state.year_val==2023:
     with open("graph_new_2023.pkl", "rb") as f:
         graph_new=pickle.load(f)
         opacity=0.1
@@ -332,7 +335,7 @@ layers = [dict(sourcetype = 'geojson',
             )]
 
 #mapboxt = open(".mapbox_token").read().rstrip() #my mapbox_access_token  must be set only for special mapbox style
-fig_pub.update_layout(title_text=f"IReNA Connection on the year {year} through publication", title_x=0.5,
+fig_pub.update_layout(title_text=f"IReNA Connection on the year {st.session_state.year_val} through publication", title_x=0.5,
               font=dict(family='Balto', color='black'),
               autosize=False,
               width=1200,
@@ -351,7 +354,7 @@ fig_pub.update_layout(title_text=f"IReNA Connection on the year {year} through p
             margin=dict(t=150)
             )
 
-st.write(f"**{len(graph_new.edges())}** Connection in the year **{year}**")
+st.write(f"**{len(graph_new.edges())}** Connection in the year **{st.session_state.year_val}**")
 st.plotly_chart(fig_pub)
 
 

@@ -12,7 +12,8 @@ import plotly.graph_objs as go
 import plotly.express as px
 
 st.set_page_config(
-    page_title="IReNA Connections"
+    page_title="IReNA Connections", 
+    layout="wide"
 )
 
 st.sidebar.success("Select further options")

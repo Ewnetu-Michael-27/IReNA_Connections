@@ -7,7 +7,8 @@ import networkx as nx
 
 
 st.set_page_config(
-    page_title="IReNA Membership Insight"
+    page_title="IReNA Membership Insight", 
+    layout="wide"
 )
 
 st.title("IReNA Membership Insight")

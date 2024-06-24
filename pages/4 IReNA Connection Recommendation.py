@@ -15,6 +15,7 @@ st.set_page_config(
     page_title="IReNA Connection Recommendation", 
     layout="wide"
 )
+st.write("Check")
 
 st.sidebar.success("Select further options")
 

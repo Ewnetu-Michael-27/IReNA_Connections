@@ -232,7 +232,7 @@ fig_1.update_layout(title_text="IReNA Members in "+option_10A+" Connected Across
                                       lon=x_center+0.01),
                           pitch=0,
                           zoom=0.3,
-                          style='open-street-map'
+                          style='mapbox://styles/ewnetumi/clxus5jj7049j01qj91i6223u'
                          ),
             margin=dict(t=150)
             )

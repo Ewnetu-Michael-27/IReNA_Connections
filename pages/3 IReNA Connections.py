@@ -348,7 +348,7 @@ fig_pub.update_layout(title_text=f"IReNA Connection on the year {st.session_stat
                           center=dict(lat=y_center,
                                       lon=x_center+0.01),
                           pitch=0,
-                          zoom=0.3,
+                          zoom=0.5,
                           style='open-street-map'
                          ),
             margin=dict(t=150)

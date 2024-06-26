@@ -94,7 +94,7 @@ with col5a:
         go.Bar(
             x=[(i[0]+" - "+i[1]) for i in list(tempo.keys())],
             y=list(tempo.values()), 
-            marker_color=["blue", "red", "red", "blue", "red", "red", "red", "red", "red", "red", "blue"]
+            marker_color=["blue", "red", "red", "blue", "red", "red", "red", "red", "red", "red", "red"]
         )
     ],
     layout=go.Layout(
@@ -133,7 +133,8 @@ with col5b:
     data=[
         go.Bar(
             x=[(i[0]+" - "+i[1]) for i in list(tempo_1.keys())],
-            y=list(tempo_1.values())
+            y=list(tempo_1.values()),
+            marker_color=["blue", "red", "red", "red", "red", "blue", "red"]
         )
     ],
     layout=go.Layout(
@@ -172,7 +173,8 @@ with col5c:
     data=[
         go.Bar(
             x=[(i[0]+" - "+i[1]) for i in list(tempo_2.keys())],
-            y=list(tempo_2.values())
+            y=list(tempo_2.values()),
+            marker_color=["blue", "red", "red", "red", "red", "red", "red", "red", "red", "red"]
         )
     ],
     layout=go.Layout(

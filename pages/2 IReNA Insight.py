@@ -104,7 +104,7 @@ st.write("")
 data_2=pd.read_csv("data_06_19.csv")
 
 
-FA=["YRO?","FA1","FA2","FA3","FA4","FA5","FA6","FA7","FA8"]
+FA=["YRO","FA1","FA2","FA3","FA4","FA5","FA6","FA7","FA8"]
 option_10A=st.selectbox("Choose Focus Area from the following options to see membership distribution", FA)
 
 result=data_2[data_2[option_10A]==1]

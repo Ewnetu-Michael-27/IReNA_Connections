@@ -56,7 +56,7 @@ with col1:
         option_5=st.multiselect("Choose Position of memeber from the following list", Po)
 
     if "Specific Focus Area Membership" in options_1:
-        FA=["YRO?","FA1","FA2","FA3","FA4","FA5","FA6","FA7","FA8"]
+        FA=["YRO","FA1","FA2","FA3","FA4","FA5","FA6","FA7","FA8"]
         option_6=st.multiselect("Choose Focus Area from the following options", FA)
 
     

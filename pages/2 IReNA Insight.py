@@ -211,7 +211,7 @@ layers = [dict(sourcetype = 'geojson',
                        "geometry": {"type": "MultiLineString",
                                     "coordinates": coords}
                       },
-             color= 'black',
+             color= 'red',
              type = 'line',
               opacity=0.015,   
              line=dict(width=1),

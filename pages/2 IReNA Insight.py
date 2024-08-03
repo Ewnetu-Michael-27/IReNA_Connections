@@ -76,7 +76,7 @@ with col9:
 with col10:
     if st.button(" Apply "):
         d=list(data_1[data_1["Country"]==options_10]["Institution"])
-        st.write(d)
+        st.write(pd.DataFrame(d, columns=["List of Institutions"]))
 
 st.write("")
 st.markdown("***")
@@ -232,7 +232,6 @@ fig_1.update_layout(title_text="IReNA Members in "+option_10A+" Connected Across
                                       lon=x_center+0.01),
                           pitch=0,
                           zoom=0.3,
-                          #style='mapbox://styles/ewnetumi/clxus5jj7049j01qj91i6223u'
                           style='open-street-map'
                          ),
             margin=dict(t=150)

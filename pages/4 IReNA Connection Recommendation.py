@@ -21,6 +21,13 @@ st.sidebar.success("Select further options")
 st.title("IReNA Connection Recommendation")
 
 
+
+
+#*************************************************************************************************************************
+
+if "AQ" not in st.session_state:
+    st.session_state["AQ"]=False
+
 data=pd.read_csv("data_06_19.csv")
 
 with open("graph_trial.pkl", "rb") as f:
@@ -130,7 +137,7 @@ def get_no_connections(graph, node):
     
 
 st.write("**However, there are still lot more opportunities for collaborations and connections**")
-st.write("Below, you can see for each member **full list** of IReNA members that he/she has not collaborated with")
+st.write("Below, you can see for each member **full list** of IReNA members that he/she has yet not collaborated with")
 
 def get_no_connections(graph, node):
     try:
@@ -144,18 +151,19 @@ def get_no_connections(graph, node):
         return f"Node {node} does not exist in the graph"
 
 
-
-
-st.write("See below for each member full list of members not yet connected")
-
+st.write("See below, for each member, the full list of members not yet connected")
 
 node=list(graph_trial.nodes())
 options_9=st.selectbox("Choose an IReNA member ID", node)
 nodes=get_no_connections(graph_trial, options_9)
 
-
 if st.button("Apply Queery "):
-    st.write(nodes)
+    st.session_state["AQ"]=True
+
+if st.session_state["AQ"]:
+    st.write(options_9, " is not connected with ", str(len(nodes)), " members of IReNA.")
+    data_y=data[data["ID"].isin(nodes)][["ID", "Home Institution", "Country", "Position"]].reset_index(drop=True)
+    st.dataframe(data_y)
 
     #Creating graph for selected node***********************************************************************
     graph_trial_2=nx.Graph()
@@ -209,7 +217,8 @@ if st.button("Apply Queery "):
             hoverinfo='text'
             ))            
 
-    fig.update_layout(title_text="Location of Possible Connections", title_x=0.5,
+    tit="Location of Possible Future Connections for "+ options_9
+    fig.update_layout(title_text=tit, title_x=0.5,
             font=dict(family='Balto', color='black'),
             autosize=False,
             width=1200,

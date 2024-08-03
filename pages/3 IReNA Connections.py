@@ -361,7 +361,7 @@ st.plotly_chart(fig_pub)
 
 
 
-
+#********************************************************************************************************************
 
 st.write("")
 st.markdown("***")
@@ -395,8 +395,9 @@ nodes=get_connections(graph_trial, options_8)
 
 
 if st.button("Apply Queery"):
-    st.write(options_8, " is an author in ", str(dict_pub_info[options_8]), " out of the 149 papers. See connection below" )
-    st.write(nodes)
+    st.write(options_8, " is an author in ", str(dict_pub_info[options_8]), " out of the 149 papers. See the",str(len(nodes))  ," connections in the IReNA database below" )
+    data_s=data[data["ID"].isin(nodes)][["ID", "Home Institution", "Country", "Position"]].reset_index(drop=True)
+    st.dataframe(data_s)
 
 
     #Creating graph for selected node***********************************************************************

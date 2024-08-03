@@ -6,6 +6,7 @@ import pydeck as pdk
 from PIL import Image
 import math
 import pickle
+import plotly.graph_objs as go
 
 st.set_page_config(
     page_title="IReNA Demo", 
@@ -22,7 +23,7 @@ st.image(image)
 st.header("The purpose of this page is to allow the user interact with IReNA data and learn about the members.", divider="red")
 
 data=pd.read_csv("data_06_19.csv")
-
+data_pub=pd.read_csv("IReNA_pub_metrics.csv")
 
 st.write("**Search members by**")
 
@@ -90,7 +91,8 @@ with col2:
 
     if st.button("Apply"):
         st.dataframe(result)
-    
+
+#**************************************************************************************************************************************************************
 st.write("")
 st.markdown("***")
 st.write("")
@@ -112,6 +114,31 @@ with col4:
     for i in dict_title_years[options_7]:
         st.write(i)
 
+fig_1M = go.Figure(
+    data=[
+        go.Bar(
+            x=["Total Read", "Total Download", "Total Citation"],
+            y=[sum(data_pub["Total_Read"]),sum(data_pub["Total_Download"]),sum(data_pub["Total_Citation"])],
+            marker_color=["blue", "blue", "blue"]
+        )
+    ],
+    layout=go.Layout(
+        title="IReNA papers have seen siginificant engagement from 2020-2024",
+        xaxis=dict(
+            title="Metric"
+        ),
+        yaxis=dict(
+            title="Value"
+        )
+    )
+)
+
+fig_1M.update_traces(width=0.2)
+
+st.plotly_chart(fig_1M)
+
+
+#***********************************************************************************************************************************************************
 st.write("")
 st.markdown("***")
 st.write("")

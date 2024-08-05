@@ -139,17 +139,6 @@ def get_no_connections(graph, node):
 st.write("**However, there are still lot more opportunities for collaborations and connections**")
 st.write("Below, you can see for each member **full list** of IReNA members that he/she has yet not collaborated with")
 
-def get_no_connections(graph, node):
-    try:
-        all_nodes=set(graph.nodes())
-        neighbors=set(graph.neighbors(node))
-
-        non_friend=all_nodes-neighbors-{node}
-
-        return list(non_friend)
-    except nx.NetworkXError:
-        return f"Node {node} does not exist in the graph"
-
 
 st.write("See below, for each member, the full list of members not yet connected")
 

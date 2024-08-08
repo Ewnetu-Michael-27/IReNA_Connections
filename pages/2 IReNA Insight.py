@@ -16,6 +16,7 @@ st.title("IReNA Membership Insight")
 st.sidebar.success("Select further options")
 
 
+st.write("**Publication Related Insight.**")
 
 data_1=pd.read_csv("HI_addy.csv")
 data_pub=pd.read_csv("IReNA_pub_metrics.csv")

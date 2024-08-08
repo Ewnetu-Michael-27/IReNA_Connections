@@ -7,6 +7,7 @@ from PIL import Image
 import math
 import pickle
 import plotly.graph_objs as go
+import plotly.express as px
 
 st.set_page_config(
     page_title="IReNA Demo", 

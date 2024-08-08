@@ -166,8 +166,7 @@ fig_n2= px.bar(data_1[["Total_Read", "Total_Download", "Year"]].melt(id_vars='Ye
              color='Category', barmode='group', title="Downloading and Reading Trends on IReNA Papers")
 st.plotly_chart(fig_n2)
 
-fig_n3 = px.bar(data_1[["Total_Citation","Year"]]
-             , x='Year', y='Total_Citation', Title="Citation Trend on IReNA Papers")
+fig_n3 = px.bar(data_1[["Total_Citation","Year"]], x='Year', y='Total_Citation', Title="Citation Trend on IReNA Papers")
 st.plotly_chart(fig_n3)
 
 #***********************************************************************************************************************************************************

@@ -113,6 +113,25 @@ with col4:
     st.write(str(len(dict_title_years[options_7]))+" Papers for the year: "+str(options_7))
     for i in dict_title_years[options_7]:
         st.write(i)
+data_1=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").sum().reset_index()
+data_2=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").count().reset_index()
+
+fig_n = px.line(data_2, x="Year", y="Total_Citation", title='Increasing IReNA Publications Through The Years')
+fig_n.update_layout(xaxis = dict(
+        title="Year",
+        tickmode = 'linear',
+        tick0 = 2019,
+        dtick = 1
+    ), 
+    yaxis = dict(
+        title="Number of Publications",
+        tickmode = 'linear',
+        tick0 = 0,
+        dtick = 5
+    )
+    )
+fig_n.update_traces(line_color='red')
+st.plotly_chart(fig_n)
 
 fig_1M = go.Figure(
     data=[
@@ -137,6 +156,14 @@ fig_1M.update_traces(width=0.2)
 
 st.plotly_chart(fig_1M)
 
+fig_n2= px.bar(data_1[["Total_Read", "Total_Download", "Year"]].melt(id_vars='Year', var_name='Category', value_name='Value')
+             , x='Year', y='Value', 
+             color='Category', barmode='group', title="Downloading and Reading Trends on IReNA Papers")
+st.plotly_chart(fig_n2)
+
+fig_n3 = px.bar(data_1[["Total_Citation","Year"]]
+             , x='Year', y='Total_Citation', Title="Citation Trend on IReNA Papers")
+st.plotly_chart(fig_n3)
 
 #***********************************************************************************************************************************************************
 st.write("")

@@ -25,6 +25,7 @@ st.header("The purpose of this page is to allow the user interact with IReNA dat
 data=pd.read_csv("data_06_19.csv")
 data_pub=pd.read_csv("IReNA_pub_metrics.csv")
 
+
 st.write("**Search members by**")
 
 options_1=st.multiselect(
@@ -113,6 +114,9 @@ with col4:
     st.write(str(len(dict_title_years[options_7]))+" Papers for the year: "+str(options_7))
     for i in dict_title_years[options_7]:
         st.write(i)
+#***************************************************************************
+data_pub["Year"]=data_pub["bibcodes"].apply(lambda x: int(x[0:4]))
+
 data_1=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").sum().reset_index()
 data_2=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").count().reset_index()
 

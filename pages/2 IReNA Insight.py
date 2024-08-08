@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 import plotly.graph_objs as go
 import networkx as nx 
-
+import plotly.express as px
 
 st.set_page_config(
     page_title="IReNA Membership Insight", 

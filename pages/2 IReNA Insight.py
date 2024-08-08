@@ -18,10 +18,12 @@ st.sidebar.success("Select further options")
 
 st.write("**Publication Related Insight.**")
 
-data_1=pd.read_csv("HI_addy.csv")
+data_1a=pd.read_csv("HI_addy.csv")
 data_pub=pd.read_csv("IReNA_pub_metrics.csv")
 data_pub["Year"]=data_pub["bibcodes"].apply(lambda x: int(x[0:4]))
 
+
+#**************************************************************************************
 data_1=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").sum().reset_index()
 data_2=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").count().reset_index()
 
@@ -86,12 +88,12 @@ with col2a:
 
 
 st.write("**Member Insitutions**")
-st.write(str(len(data_1["Institution"])), "Member Institutions in ",str(len(data_1["Country"].unique())),"Countries. See the map below to see their location.")
+st.write(str(len(data_1a["Institution"])), "Member Institutions in ",str(len(data_1a["Country"].unique())),"Countries. See the map below to see their location.")
 
 #Get the map center:
-ids=list(data_1["Institution"])
-lats=list(data_1["Lat"])
-lons=list(data_1["Long"])
+ids=list(data_1a["Institution"])
+lats=list(data_1a["Lat"])
+lons=list(data_1a["Long"])
 
 x_center = (min(lons) + max(lons))/2
 y_center = (min(lats) + max(lats))/2
@@ -136,12 +138,12 @@ st.write("See memeber instituions below by selecting countiries")
 col9, col10=st.columns([1,3])
 
 with col9:
-    Cou=list(data_1["Country"].unique())
+    Cou=list(data_1a["Country"].unique())
     options_10=st.selectbox("Choose Country", Cou)
 
 with col10:
     if st.button(" Apply "):
-        d=list(data_1[data_1["Country"]==options_10]["Institution"])
+        d=list(data_1a[data_1a["Country"]==options_10]["Institution"])
         st.write(pd.DataFrame(d, columns=["List of Institutions"]))
 
 st.write("")

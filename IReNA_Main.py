@@ -140,6 +140,9 @@ fig_n.update_layout(xaxis = dict(
 fig_n.update_traces(line_color='red')
 st.plotly_chart(fig_n)
 
+st.write("**IReNA papers have seen siginificant engagement from 2020-2024**")
+
+
 fig_1M = go.Figure(
     data=[
         go.Bar(
@@ -149,7 +152,7 @@ fig_1M = go.Figure(
         )
     ],
     layout=go.Layout(
-        title="IReNA papers have seen siginificant engagement from 2020-2024",
+        title="Total Read, Download, and Citation of IReNA Papers",
         xaxis=dict(
             title="Metric"
         ),

@@ -121,7 +121,9 @@ data_pub["Year"]=data_pub["bibcodes"].apply(lambda x: int(x[0:4]))
 data_1=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").sum().reset_index()
 data_2=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").count().reset_index()
 
-fig_n = px.line(data_2, x="Year", y="Total_Citation", title='Increasing IReNA Publications Through The Years')
+data_2["Number of Pulication"]=data_2["Total_Citation"]
+
+fig_n = px.line(data_2, x="Year", y="Number of Pulication", title='Increasing IReNA Publications Through The Years')
 fig_n.update_layout(xaxis = dict(
         title="Year",
         tickmode = 'linear',

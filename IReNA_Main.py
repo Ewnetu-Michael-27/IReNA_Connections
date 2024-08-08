@@ -161,13 +161,17 @@ fig_1M.update_traces(width=0.2)
 
 st.plotly_chart(fig_1M)
 
-fig_n2= px.bar(data_1[["Total_Read", "Total_Download", "Year"]].melt(id_vars='Year', var_name='Category', value_name='Value')
-             , x='Year', y='Value', 
-             color='Category', barmode='group', title="Downloading and Reading Trends on IReNA Papers")
-st.plotly_chart(fig_n2)
+col1a, col2a=st.columns([1,1])
 
-fig_n3 = px.bar(data_1[["Total_Citation","Year"]], x='Year', y='Total_Citation', title="Citation Trend on IReNA Papers")
-st.plotly_chart(fig_n3)
+with col1a:
+    fig_n2= px.bar(data_1[["Total_Read", "Total_Download", "Year"]].melt(id_vars='Year', var_name='Category', value_name='Value')
+                 , x='Year', y='Value', 
+                 color='Category', barmode='group', title="Downloading and Reading Trends on IReNA Papers")
+    st.plotly_chart(fig_n2)
+
+with col2a:
+    fig_n3 = px.bar(data_1[["Total_Citation","Year"]], x='Year', y='Total_Citation', title="Citation Trend on IReNA Papers")
+    st.plotly_chart(fig_n3)
 
 #***********************************************************************************************************************************************************
 st.write("")

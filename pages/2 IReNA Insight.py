@@ -18,8 +18,73 @@ st.sidebar.success("Select further options")
 
 
 data_1=pd.read_csv("HI_addy.csv")
+data_pub=pd.read_csv("IReNA_pub_metrics.csv")
+data_pub["Year"]=data_pub["bibcodes"].apply(lambda x: int(x[0:4]))
 
-st.write("**Starting with Insitutions**")
+data_1=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").sum().reset_index()
+data_2=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").count().reset_index()
+
+data_2["Number of Pulication"]=data_2["Total_Citation"]
+
+fig_n = px.line(data_2, x="Year", y="Number of Pulication", title='Increasing IReNA Publications Through The Years')
+fig_n.update_layout(xaxis = dict(
+        title="Year",
+        tickmode = 'linear',
+        tick0 = 2019,
+        dtick = 1
+    ), 
+    yaxis = dict(
+        title="Number of Publications",
+        tickmode = 'linear',
+        tick0 = 0,
+        dtick = 5
+    )
+    )
+fig_n.update_traces(line_color='red')
+st.plotly_chart(fig_n)
+
+st.write("**IReNA papers have seen siginificant engagement from 2020-2024**")
+
+
+fig_1M = go.Figure(
+    data=[
+        go.Bar(
+            x=["Total Read", "Total Download", "Total Citation"],
+            y=[sum(data_pub["Total_Read"]),sum(data_pub["Total_Download"]),sum(data_pub["Total_Citation"])],
+            marker_color=["blue", "blue", "blue"]
+        )
+    ],
+    layout=go.Layout(
+        title="Total Read, Download, and Citation of IReNA Papers",
+        xaxis=dict(
+            title="Metric"
+        ),
+        yaxis=dict(
+            title="Value"
+        )
+    )
+)
+
+fig_1M.update_traces(width=0.2)
+
+st.plotly_chart(fig_1M)
+
+col1a, col2a=st.columns([1,1])
+
+with col1a:
+    fig_n2= px.bar(data_1[["Total_Read", "Total_Download", "Year"]].melt(id_vars='Year', var_name='Category', value_name='Value')
+                 , x='Year', y='Value', 
+                 color='Category', barmode='group', title="Downloading and Reading Trends on IReNA Papers")
+    st.plotly_chart(fig_n2)
+
+with col2a:
+    fig_n3 = px.bar(data_1[["Total_Citation","Year"]], x='Year', y='Total_Citation', title="Citation Trend on IReNA Papers")
+    st.plotly_chart(fig_n3)
+
+#***********************************************************************************************************************
+
+
+st.write("**Member Insitutions**")
 st.write(str(len(data_1["Institution"])), "Member Institutions in ",str(len(data_1["Country"].unique())),"Countries. See the map below to see their location.")
 
 #Get the map center:

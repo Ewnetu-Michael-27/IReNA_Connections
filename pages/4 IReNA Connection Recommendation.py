@@ -231,7 +231,7 @@ st.write("")
 st.markdown("***")
 st.write("")
 
-st.header("New Connection Recommendation")
+st.header("New Connection Recommendation (**Under Construction**)")
 
 st.write("Current version is for individuals with atleast 1 publication")
 node=list(graph_trial.nodes())

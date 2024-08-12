@@ -34,7 +34,8 @@ fig_n.update_layout(xaxis = dict(
         title="Year",
         tickmode = 'linear',
         tick0 = 2019,
-        dtick = 1
+        dtick = 1,
+        range=[2019, 2025]
     ), 
     yaxis = dict(
         title="Number of Publications",
@@ -43,7 +44,17 @@ fig_n.update_layout(xaxis = dict(
         dtick = 5
     )
     )
+fig_n.add_annotation(
+    x=2024, 
+    y=data_2["Number of Pulication"].iloc[-1],
+    text="2024 data is incomplete",
+    showarrow=True, 
+    arrowhead=2,
+    yshift=10
+)
+
 fig_n.update_traces(line_color='red')
+fig_n.update_layout(hovermode="x unified")
 st.plotly_chart(fig_n)
 
 st.write("**IReNA papers have seen siginificant engagement from 2020-2024**")
@@ -308,3 +319,40 @@ fig_1.update_layout(title_text="IReNA Members in "+option_10A+" Connected Across
 if st.button("Click to see chart"):
     st.write(f"**{len(ids)}** members in **{option_10A}**")
     st.plotly_chart(fig_1)
+
+    st.write("")
+    st.header("Participant Information about "+ option_10A)
+
+    col1b, col2b, col3b=st.columns([1,1,1])
+
+    with col1b:
+        ti="Distribution of Position within "+ option_10A
+        fig_1b=px.pie(result[["Position", "First"]].groupby("Position").count().reset_index().rename(columns={"First":"Count"}),
+            values="Count", names="Position", title=ti)
+        fig_1b.update_traces(textposition='inside', textinfo='percent+label')
+        st.plotly_chart(fig_1b)
+
+    with col2b:
+        ti_2="Top 10 Countries of Participants within "+ option_10A
+        fig_2b=px.bar(result[["Country", "First"]].groupby("Country").count().sort_values(by=["First"], ascending=False).reset_index().head(10).rename(columns={"First":"Count"}),
+            x="Country",
+            y="Count"
+        )
+        fig_2b.update_layout(
+            title=ti_2,
+        )
+        st.plotly_chart(fig_2b)
+    with col3b:
+        ti_3="Network Distribution of Participants within "+ option_10A
+        fig_3b=px.bar(
+            result[["Network", "First"]].groupby("Network").count().sort_values(by=["First"], ascending=False).reset_index().rename(columns={"First":"Count"}),
+            x="Network",
+            y="Count"
+        )
+        fig_3b.update_layout(
+            title=ti_3,
+        )
+        st.plotly_chart(fig_3b)
+
+
+

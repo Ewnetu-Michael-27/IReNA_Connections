@@ -74,7 +74,7 @@ network_color_map={
 
 if st.button("generate graph!"):
     def circular_arc(start, end, num_points=20):
-    """
+        """
         Calculate circular arc points between start and end.
         start, end: start and end points of the arc
         num_points: number of points to generate on the arc

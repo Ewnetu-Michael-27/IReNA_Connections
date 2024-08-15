@@ -170,7 +170,7 @@ if st.button("generate graph!"):
     
     
     fig_tr.update_layout(
-        title_text="IReNA Members in "+FA_info+" Connected Across Network",
+        title_text="IReNA Members in "+option_st+" Connected Across Network",
         title_x=0.5,
         font=dict(family='Balto', color='black'),
         autosize=False,

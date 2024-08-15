@@ -158,7 +158,7 @@ if st.button("generate graph!"):
     
     line_lats, line_lons = zip(*lines)
 
-    width_val={"FA3":0.7, "FA6":0.7, "FA7":1, "FA8":0.8}
+    width_val={"FA3":0.7, "FA6":0.7, "FA7":1, "FA8":0.8, "YRO": 0.6}
     
     fig_tr.add_trace(go.Scattermapbox(
         mode="lines",

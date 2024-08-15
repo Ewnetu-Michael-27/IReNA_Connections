@@ -10,7 +10,7 @@ st.header("Trial")
 
 data=pd.read_csv("data_06_19.csv")
 
-option_st=st.slectbox("Select focus area for curved network map", ("FA1", "FA2", "FA3", "FA4", "FA5", "FA6", "FA7", "FA8", "YRO"))
+option_st=st.selectbox("Select focus area for curved network map", ("FA1", "FA2", "FA3", "FA4", "FA5", "FA6", "FA7", "FA8", "YRO"))
 
 
 

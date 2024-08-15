@@ -118,7 +118,7 @@ if st.button("generate graph!"):
     x_center = (min(lons) + max(lons)) / 2
     y_center = (min(lats) + max(lats)) / 2
     
-    fig_try = go.Figure(layout=go.Layout(width=1024, height=768))
+    fig_tr = go.Figure(layout=go.Layout(width=1024, height=768))
     
     for network in network_color_map:
         net_ids = [ids[i] for i in range(len(Net)) if Net[i] == network]
@@ -134,8 +134,7 @@ if st.button("generate graph!"):
             marker=dict(size=8, color=net_color),
             name=network,
             showlegend=True,
-            hoverinfo='text'
-        ))
+            hoverinfo='text'))
     
     
     edge_list = list(graph.edges(data=True))

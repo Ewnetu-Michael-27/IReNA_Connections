@@ -157,12 +157,14 @@ if st.button("generate graph!"):
             lines.append([None, None])  # to break the line
     
     line_lats, line_lons = zip(*lines)
+
+    width_val={"FA3":0.7, "FA6":0.7, "FA7":1, "FA8":0.8}
     
     fig_tr.add_trace(go.Scattermapbox(
         mode="lines",
         lon=line_lons,
         lat=line_lats,
-        line=dict(width=0.5, color='red'),
+        line=dict(width=width_val.get(option_st, 0.5), color='red'),
         opacity=0.02,
         hoverinfo='skip',
         showlegend=False

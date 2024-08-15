@@ -162,7 +162,7 @@ if st.button("generate graph!"):
         mode="lines",
         lon=line_lons,
         lat=line_lats,
-        line=dict(width=1, color='red'),
+        line=dict(width=0.5, color='red'),
         opacity=0.02,
         hoverinfo='skip',
         showlegend=False

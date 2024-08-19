@@ -1,8 +1,8 @@
 streamlit
-pandas==2.1.1
-numpy==1.25.1
+pandas
+numpy
 scikit-learn
-plotly==5.23.0
-networkx==3.1
+plotly
+networkx
 torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 torch_geometric

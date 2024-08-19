@@ -4,5 +4,4 @@ numpy
 scikit-learn
 plotly
 networkx
-torch==2.4.0 
-torch_geometric
+

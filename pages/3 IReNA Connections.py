@@ -3,10 +3,10 @@ import pandas as pd
 import numpy as np 
 import networkx as nx
 import pickle
-#import torch
-#from torch_geometric.nn import GCNConv
+import torch
+from torch_geometric.nn import GCNConv
 from sklearn.metrics import roc_auc_score
-#import torch.nn.functional as F 
+import torch.nn.functional as F 
 import networkx as nx
 import plotly.graph_objs as go
 import plotly.express as px

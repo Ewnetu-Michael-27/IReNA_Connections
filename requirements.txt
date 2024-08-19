@@ -4,9 +4,9 @@ numpy
 scikit-learn
 plotly
 networkx
-torch==2.4.0+cpu
-torchvision==0.15.0+cpu
-torchaudio==2.4.0+cpu
+torch==2.3.1+cpu
+torchvision==0.14.1+cpu
+torchaudio==2.3.1+cpu
 -f https://download.pytorch.org/whl/cpu/torch_stable.html
 torch-geometric==2.4.0
 -f https://data.pyg.org/whl/torch-2.4.0+cpu.html

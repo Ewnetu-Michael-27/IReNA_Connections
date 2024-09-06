@@ -28,9 +28,13 @@ st.title("IReNA Connection Recommendation")
 if "AQ" not in st.session_state:
     st.session_state["AQ"]=False
 
+data_a=pd.read_csv("data_main_09.csv")
 data=pd.read_csv("data_06_19.csv")
 
 with open("graph_trial.pkl", "rb") as f:
+    graph_trial_0=pickle.load(f)
+
+with open("graph_trial_1.pkl", "rb") as f:
     graph_trial=pickle.load(f)
 
 #Needed for indexing realted process in the link recommendation
@@ -142,29 +146,29 @@ st.write("Below, you can see for each member **full list** of IReNA members that
 
 st.write("See below, for each member, the full list of members not yet connected")
 
-node=list(graph_trial.nodes())
-options_9=st.selectbox("Choose an IReNA member ID", node)
-nodes=get_no_connections(graph_trial, options_9)
+node_1=list(graph_trial_0.nodes())
+options_9=st.selectbox("Choose an IReNA member ID", node_1)
+nodes=get_no_connections(graph_trial_0, options_9)
 
 if st.button("Apply Queery "):
     st.session_state["AQ"]=True
 
 if st.session_state["AQ"]:
     st.write(options_9, " is not connected with ", str(len(nodes)), " members of IReNA.")
-    data_y=data[data["ID"].isin(nodes)][["ID", "Home Institution", "Country", "Position"]].reset_index(drop=True)
+    data_y=data_a[data_a["ID"].isin(nodes)][["ID", "Home Institution", "Country", "Position"]].reset_index(drop=True)
     st.dataframe(data_y)
 
     #Creating graph for selected node***********************************************************************
     graph_trial_2=nx.Graph()
 
-    val=data[data["ID"]==options_9]
+    val=data_a[data_a["ID"]==options_9]
     Latitude=val["Latitude"].values[0]
     Longitude=val["Longitude"].values[0]
 
     graph_trial_2.add_node(options_9, Latitude=Latitude, Longitude=Longitude)
 
     for i in nodes:
-        val=data[data["ID"]==i]
+        val=data_a[data_a["ID"]==i]
         Latitude=val["Latitude"].values[0]
         Longitude=val["Longitude"].values[0]
 
@@ -226,7 +230,7 @@ if st.session_state["AQ"]:
             )
 
     st.plotly_chart(fig)
-
+#************************************************************************************************************************************
 st.write("")
 st.markdown("***")
 st.write("")

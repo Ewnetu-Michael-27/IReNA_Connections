@@ -27,9 +27,9 @@ data_pub["Year"]=data_pub["bibcodes"].apply(lambda x: int(x[0:4]))
 data_1=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").sum().reset_index()
 data_2=data_pub[["Total_Read", "Total_Download", "Total_Citation", "Year"]].groupby("Year").count().reset_index()
 
-data_2["Number of Pulication"]=data_2["Total_Citation"]
+data_2["Number of Journals"]=data_2["Total_Citation"]
 
-fig_n = px.line(data_2, x="Year", y="Number of Pulication", title='Increasing IReNA Publications Through The Years')
+fig_n = px.line(data_2, x="Year", y="Number of Journals", title='Increasing IReNA Journals Through The Years')
 fig_n.update_layout(xaxis = dict(
         title="Year",
         tickmode = 'linear',
@@ -38,7 +38,7 @@ fig_n.update_layout(xaxis = dict(
         range=[2019, 2025]
     ), 
     yaxis = dict(
-        title="Number of Publications",
+        title="Number of Journals",
         tickmode = 'linear',
         tick0 = 0,
         dtick = 5
@@ -46,7 +46,7 @@ fig_n.update_layout(xaxis = dict(
     )
 fig_n.add_annotation(
     x=2024, 
-    y=data_2["Number of Pulication"].iloc[-1],
+    y=data_2["Number of Journals"].iloc[-1],
     text="2024 data is incomplete",
     showarrow=True, 
     arrowhead=2,
@@ -95,10 +95,11 @@ with col2a:
     fig_n3 = px.bar(data_1[["Total_Citation","Year"]], x='Year', y='Total_Citation', title="Citation Trend on IReNA Papers")
     st.plotly_chart(fig_n3)
 
-#***********************************************************************************************************************
+#**************************************************************************************************************************#############################
 
 
 st.write("**Member Insitutions**")
+#data_1a is defined earlier from HD_addy
 st.write(str(len(data_1a["Institution"])), "Member Institutions in ",str(len(data_1a["Country"].unique())),"Countries. See the map below to see their location.")
 
 #Get the map center:
@@ -180,7 +181,7 @@ st.write("FA7: Weak Interactions")
 st.write("FA8: Professional Development and Broadening Participation")
 st.write("")
 
-data_2=pd.read_csv("data_06_19.csv")
+data_2=pd.read_csv("data_main_09.csv")
 
 
 FA=["YRO","FA1","FA2","FA3","FA4","FA5","FA6","FA7","FA8"]
@@ -188,10 +189,12 @@ option_10A=st.selectbox("Choose Focus Area from the following options to see mem
 
 result=data_2[data_2[option_10A]==1]
 
+
 ids=list(result["ID"])
 lats=list(result["Latitude"])
 lons=list(result["Longitude"])
 Net=list(result["Network"])
+
 
 graph=nx.Graph()
 
@@ -250,18 +253,17 @@ for e in pl_edges:
 
 #Assign color
 network_color_map={
-    'EMMI':'#2ca02c', #green
-    'CeNAM':'#9467bd', #Purple 
-    'UKAKUREN':'#bcbd22', #yellow-green
-    'NuGRID':'#17becf', #cyan
-    'ChETEC Infra':'#ff7f0e', #Orange
-    'ChETEC':'#e377c2', #pink
     'BRIDGCE':'#7f7f7f', #gray
     'CaNPAN':'#98df8a', #light green
+    'CeNAM':'#9467bd', #Purple 
+    'ChETEC':'#e377c2', #pink
+    'ChETEC Infra':'#ff7f0e', #Orange
     'CRC881':'#ffbb78',#light Orange 
-    'JINA-CEE':'#1f77b4', #blue
+    'EMMI':'#2ca02c', #green
     'IANNA':'yellow', #yellow
-    'ChETEC, NuGRID': '#8c564b' #brown
+    'JINA-CEE':'#1f77b4', #blue
+    'NuGRID':'#17becf', #cyan
+    'UKAKUREN':'#bcbd22', #yellow-green
 }
 
 node_colors=[network_color_map[net] for net in Net]
@@ -285,6 +287,17 @@ for network in network_color_map:
         hoverinfo='text'
     ))
 
+width_val={
+        "FA1":0.6,
+        "FA2":0.85,
+        "FA3":1,
+        "FA4":1,
+        "FA5":0.7,
+        "FA6":0.8,
+        "FA7":1,
+        "FA8":1,
+        "YRO":1
+    }
 layers = [dict(sourcetype = 'geojson',
                source={"type": "Feature",
                        "geometry": {"type": "MultiLineString",
@@ -293,15 +306,16 @@ layers = [dict(sourcetype = 'geojson',
              color= 'red',
              type = 'line',
               opacity=0.015,   
-             line=dict(width=1),
+             line=dict(width=width_val[option_10A]),
             )]
+
 
 #mapboxt = open(".mapbox_token").read().rstrip() #my mapbox_access_token  must be set only for special mapbox style
 fig_1.update_layout(title_text="IReNA Members in "+option_10A+" Connected Across Network", title_x=0.5,
               font=dict(family='Balto', color='black'),
               autosize=False,
-              width=1200,
-              height=1200,
+              width=1500,
+              height=1000,
               hovermode='closest',
     
               mapbox=dict(accesstoken=mapbox_access_token,
@@ -310,7 +324,7 @@ fig_1.update_layout(title_text="IReNA Members in "+option_10A+" Connected Across
                           center=dict(lat=y_center,
                                       lon=x_center+0.01),
                           pitch=0,
-                          zoom=0.3,
+                          zoom=1.4,
                           style='open-street-map'
                          ),
             margin=dict(t=150)

@@ -23,35 +23,30 @@ st.title("IReNA Connections")
 #loading the graph data
 #graph_M=nx.read_gexf("graph_trial.gexf")
 
-data=pd.read_csv("data_06_19.csv")
+data=pd.read_csv("data_main_09.csv")
 
 
 with open("graph_trial.pkl", "rb") as f:
     graph_trial=pickle.load(f)
 
-graph=nx.read_gexf("graph.gexf")
+with open("graph.pkl","rb") as f:
+    graph=pickle.load(f)
 
+with open("Paper_by_year.pkl", "rb") as f:
+    dict_title_years=pickle.load(f)
 
-st.write("In the **149** publications from 2020 to 2024, IReNA members were able to collaborate and form connections.")
+count_total=0
+for i in dict_title_years.values():
+    count_total+=len(i)
+
+st.write("From 2020 to 2024, IReNA members were able to collaborate and form connections, resulting in ", str(count_total)," publications.")
+st.write("Hence, ",str(graph.number_of_nodes()),"IReNA members formed ", str(graph.number_of_edges())," connections.")
+
 
 st.write("")
 st.write(":red[**What drives connections?**]")
 st.write("In the following section, some insights are provided that shows how IReNA members are forming connections.")
 st.write("")
-
-st.write("**194** IReNA members authored the 149 papers forming **4488** 1-to-1 connections among them.")
-st.write("How prolific are the connections?")
-st.write([
-"1 connection with 15 publications",
-"1 connection with 12 publications", 
-"6 connections with 7 publications each", 
-"6 connections with 5 publications each", 
-"11 connections with 6 publications each", 
-"19 connections with 4 publications each", 
-"77 connections with 3 publications each", 
-"348 connections with 2 publications each", 
-"4019 connections with only 1 publication each" 
-])
 
 
 def analyze_attribute(graph, att: str):
@@ -94,7 +89,7 @@ with col5a:
         go.Bar(
             x=[(i[0]+" - "+i[1]) for i in list(tempo.keys())],
             y=list(tempo.values()), 
-            marker_color=["blue", "red", "red", "blue", "red", "red", "red", "red", "red", "red", "red"]
+            marker_color=["blue", "red", "red", "red", "red", "blue", "red", "red", "red", "red", "red", "red", "red"]
         )
     ],
     layout=go.Layout(
@@ -280,17 +275,17 @@ x_center = (min(lons) + max(lons))/2
 y_center = (min(lats) + max(lats))/2
 
 network_color_map={
-    'EMMI':'#2ca02c', #green
-    'CeNAM':'#9467bd', #Purple 
-    'UKAKUREN':'#bcbd22', #yellow-green
-    'NuGRID':'#17becf', #cyan
-    'ChETEC Infra':'#ff7f0e', #Orange
-    'ChETEC':'#e377c2', #pink
     'BRIDGCE':'#7f7f7f', #gray
     'CaNPAN':'#98df8a', #light green
+    'CeNAM':'#9467bd', #Purple 
+    'ChETEC':'#e377c2', #pink
+    'ChETEC Infra':'#ff7f0e', #Orange
     'CRC881':'#ffbb78',#light Orange 
-    'JINA-CEE':'#1f77b4', #blue
+    'EMMI':'#2ca02c', #green
     'IANNA':'yellow', #yellow
+    'JINA-CEE':'#1f77b4', #blue
+    'NuGRID':'#17becf', #cyan
+    'UKAKUREN':'#bcbd22', #yellow-green
 }
 
 node_colors=[network_color_map[net] for net in Net]
@@ -340,8 +335,8 @@ layers = [dict(sourcetype = 'geojson',
 fig_pub.update_layout(title_text=f"IReNA Connection on the year {st.session_state.year_val} through publication", title_x=0.5,
               font=dict(family='Balto', color='black'),
               autosize=False,
-              width=1200,
-              height=1200,
+              width=1500,
+              height=1000,
               hovermode='closest',
     
               mapbox=dict(#accesstoken=mapbox_access_token,
@@ -476,7 +471,7 @@ if st.button("Apply Queery"):
                 line=dict(width=1),
                 )]
 
-    fig.update_layout(title_text="Graph on map", title_x=0.5,
+    fig.update_layout(title_text=options_8+"'s connections through out the world", title_x=0.5,
                 font=dict(family='Balto', color='black'),
                 autosize=False,
                 width=1200,

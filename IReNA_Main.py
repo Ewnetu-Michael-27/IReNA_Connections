@@ -23,7 +23,7 @@ st.image(image)
 
 st.header("The purpose of this page is to allow the user interact with IReNA data and learn about the members.", divider="red")
 
-data=pd.read_csv("data_06_19.csv")
+data=pd.read_csv("data_main_09.csv")
 
 
 
@@ -99,20 +99,27 @@ st.write("")
 st.markdown("***")
 st.write("")
 
-st.write("**From 2020 to 2024, IReNA has supported the publication of 149 papers.**")
-st.write("Select year to view the papers")
 
 with open("Paper_by_year.pkl", "rb") as f:
     dict_title_years=pickle.load(f)
 
+count_total=0
+for i in dict_title_years.values():
+    count_total+=len(i)
+
+
+st.write("**From 2020 to 2024, IReNA has supported the publication of ", str(count_total)," journals/preprints, conference reports, and Books.**")
+st.write("Select year to view the papers")
+
+
 col3, col4=st.columns([1,3])
 
 with col3:
-    options_7=st.selectbox("Select Year of Publication to view papers",
+    options_7=st.selectbox("Select year to view the publications",
                              [2020,2021,2022,2023,2024]
                              )
 with col4:
-    st.write(str(len(dict_title_years[options_7]))+" Papers for the year: "+str(options_7))
+    st.write(str(len(dict_title_years[options_7]))+" publications for the year: "+str(options_7))
     for i in dict_title_years[options_7]:
         st.write(i)
 #***************************************************************************
@@ -123,10 +130,10 @@ st.write("")
 st.markdown("***")
 st.write("")
 
-st.write("You can also select a member to see the IReNA papers he/she has published.")
+st.write("You can also select a member to see the IReNA publications he/she has.")
 
-with open("apl_main.pkl", "rb") as f:
-    apl_main=pickle.load(f)
+with open("Auth_link_paper.pkl", "rb") as f:
+    Auth_link_paper=pickle.load(f)
 
 ID=list(data["ID"])
 
@@ -137,11 +144,11 @@ with col3b:
                              ID
                              )
 with col4b:
-    if apl_main.get(options_7b,0)==0:
-        st.write(options_7b, " has not published IReNA based paper")
+    if Auth_link_paper.get(options_7b,0)==0:
+        st.write(options_7b, " has not published with IReNA")
     else:
-        val=apl_main[options_7b]
-        st.write(options_7b, " has published **", str(len(val)), "** IReNA based papers.")
+        val=Auth_link_paper[options_7b]
+        st.write(options_7b, " has published **", str(len(val)), "** times with IReNA.")
         st.write("")
         for i in range(len(val)):
             st.write(f":red[{str(i+1)}]. ",val[i])

@@ -1,0 +1,491 @@
+,First,Last,ID,Network,Country,Position,M/F,Role,YRO,FA1,FA2,FA3,FA4,FA5,FA6,FA7,FA8,Home Institution ,Email,Latitude,Longitude
+0,Carlos,Abia,Carlos_Abia,ChETEC,Spain,Faculty,M,Participant,0,1,1,0,0,1,0,0,0,University of Granada,cabia@ugr.es,37.1827211,-3.6056278
+1,Luis,Acosta,Luis_Acosta,IANNA,Mexico,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,Universidad Nacional Autonoma de Mexico,acosta@fisica.unam.mx,19.32160295,-99.18493018
+2,Alexander,Adams,Alexander_Adams,CeNAM,USA,Graduate Student,M,Participant,1,1,0,0,0,0,0,0,0,Michigan State University,adamsa@frib.msu.edu,42.70237935,-84.48038687
+3,Philip,Adsley,Philip_Adsley,CeNAM,USA,Faculty,M,Participant,0,1,0,1,0,0,1,0,0,Texas A&M University,padsley@tamu.edu,30.6108618,-96.35206061
+4,Conny,Aerts,Conny_Aerts,ChETEC,Belgium,Faculty,F,Senior Participant,0,0,0,0,0,1,0,0,0,KU Leuven,conny.aerts@kuleuven.be,50.80571285,3.291537449
+5,David,Aguado,David_Aguado,ChETEC,UK,Faculty,M,Senior Participant,0,0,1,0,0,0,0,0,0,Cambridge,daguado@ast.cam.ac.uk,52.2055314,0.1186637
+6,Eli,Aguilera,Eli_Aguilera,IANNA,Mexico,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,National Institute of Nuclear Research,eli.aguilera@inin.gob.mx,19.3075547,-99.3895718
+7,Hidetoshi,Akimune,Hidetoshi_Akimune,UKAKUREN,Japan,Faculty,,Senior Participant,0,0,0,0,0,0,0,1,0,Konan University,akimune@konan-u.ac.jp ,34.683801,135.2660926
+8,Ryan,Alexander,Ryan_Alexander,CeNAM,UK,Graduate Student,M,Participant,1,0,1,0,0,1,1,0,1,University of Hull,R.ALEXANDER-2021@hull.ac.uk,53.7710908,-0.368390596
+9,Sk Mustak,Ali,Sk Mustak_Ali,CeNAM,USA,Postdoc,M,Participant,1,1,0,0,1,0,0,1,1,Michigan State University,mustak@frib.msu.edu,42.70237935,-84.48038687
+10,Marialuisa,Aliotta,Marialuisa_Aliotta,BRIDGCE,UK,Faculty,F,Senior Participant,0,1,0,0,0,0,1,0,1,University of Edinburgh,m.aliotta@ed.ac.uk,55.94407645,-3.188373556
+11,Carlos,Allende Prieto,Carlos_Allende Prieto,ChETEC,Spain,Faculty,M,Senior Participant,0,0,1,0,0,0,0,0,0,IAC Canary Islands,callende@iac.es,28.47470255,-16.30822075
+12,Marcos,Alvarez,Marcos_Alvarez,IANNA,Spain,Faculty,M,Participant,0,1,0,0,0,0,0,0,1,Universidad de Sevilla,malvarez@us.es,37.3818133,-5.9910238
+13,Ryan,Amberger,Ryan_Amberger,CeNAM,USA,Graduate Student,M,Participant,0,1,0,1,0,0,1,0,0,Texas A&M University,ryan.amberger@tamu.edu,30.6108618,-96.35206061
+14,Matt,Amthor,Matt_Amthor,CeNAM,USA,Faculty,M,Participant,0,1,0,0,1,1,0,0,1,Bucknell University,m.amthor@bucknell.edu ,40.9515356,-76.88796034
+15,Cameron,Angus,Cameron_Angus,CaNPAN,Canada,Postdoc,,Participant,1,1,0,0,1,0,0,0,0,TRIUMF,cangus@triumf.ca,49.2475133,-123.2304555
+16,Wako,Aoki,Wako_Aoki,UKAKUREN,Japan,Faculty,M,Senior Participant,0,0,1,0,0,0,0,0,0,NAOJ,aoki.wako@nao.ac.jp,35.68351,139.55963
+17,Ani,Aprahamian,Ani_Aprahamian,CeNAM,USA,Faculty,F,Core Participant,0,1,0,0,1,0,0,0,0,University of Notre Dame,aapraham@nd.edu,41.70456775,-86.23822026
+18,Andres,Arazi,Andres_Arazi,IANNA,Argentina,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,CNEA,arazi@tandar.cnea.gov.ar,-38.9488604,-68.2199977
+19,Almudena,Arcones,Almudena_Arcones,EMMI,Germany,Faculty,F,Senior Participant,0,0,0,1,0,0,0,0,0,TU Darmstadt,almudena.arcones@physik.tu-darmstadt.de,49.93146155,8.678997963
+20,Honey,Arora,Honey_Arora,CeNAM,USA,Postdoc,F,Participant,1,1,1,1,1,0,0,0,1,Central Michigan University,honeyarora3191@gmail.com,43.58354995,-84.77464036
+21,Tom,Aumann,Tom_Aumann,EMMI,Germany,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,GSI Darmstadt,t.aumann@GSI.DE,49.93206065,8.681902845
+22,Sara,Azizi,Sara_Azizi,CeNAM,Netherlands,Graduate Student,F,Participant,1,0,0,1,0,1,0,0,1,University of Amsterdam,s.azizi@uva.nl,52.36813335,4.889804156
+23,Sam,Baker,Sam_Baker,CeNAM,USA,Faculty,M,Participant,0,1,1,1,1,0,1,0,0,Argonne National Laboratory,sambaker@anl.gov,41.70914095,-87.97862213
+24,Lauren,Balliet,Lauren_Balliet,CeNAM,USA,Graduate Student,F,Participant,1,1,0,0,1,1,0,0,1,Michigan State University,ballietl@frib.msu.edu,42.70237935,-84.48038687
+25,Avrajit,Bandyopadhyay,Avrajit_Bandyopadhyay,CeNAM,USA,Postdoc,M,Participant,1,0,1,0,0,1,0,0,1,University of Florida,avrajit.india@gmail.com,29.6328837,-82.34901302
+26,Adriana,Banu,Adriana_Banu,ChETEC Infra,USA,Faculty,F,Participant,0,1,0,0,1,0,0,0,0,James Madison University,banula@jmu.edu,38.4364404,-78.86896481
+27,Lucia,Barbieri,Lucia_Barbieri,BRIDGCE,UK,Graduate Student,,Participant,1,1,0,0,0,0,0,0,0,University of Edinburgh,lucia.barbieri@ed.ac.uk,55.94407645,-3.188373556
+28,Dan,Bardayan,Dan_Bardayan,CeNAM,USA,Faculty,M,Participant,0,1,0,0,1,0,0,0,0,University of Notre Dame,danbardayan@nd.edu,41.70456775,-86.23822026
+29,Brandon,Barker,Brandon_Barker,CeNAM,USA,Graduate Student,,Participant,1,0,0,1,0,1,0,0,0,Michigan State University,barker@lanl.gov,42.70237935,-84.48038687
+30,Libertad,Barron-Palos,Libertad_Barron-Palos,IANNA,Mexico,Faculty,F,Participant,0,1,0,0,0,0,0,0,0,Instituto de Fisica UNAM,libertad@fisica.unam.mx,19.209893,-99.155
+31,Nicholas,Barth,Nicholas_Barth,CeNAM,USA,Graduate Student,M,Participant,1,0,1,0,0,1,0,0,1,University of Florida,nbarth@ufl.edu,29.6328837,-82.34901302
+32,Umberto,Battino,Umberto_Battino,NuGRID,UK,Postdoc,M,Participant,0,0,0,0,0,1,0,0,0,University of Edinburgh,u.battino@ed.ac.uk,55.94407645,-3.188373556
+33,Chiara,Battistini,Chiara_Battistini,CeNAM,Germany,Postdoc,,Participant,0,0,1,0,1,1,0,0,1,Heidelberg University,cbattistini@lsw.uni-heidelberg.de ,49.41931885,8.670203914
+34,Andreas,Bauswein,Andreas_Bauswein,EMMI,Germany,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,GSI Darmstadt,a.bauswein@gsi.de,49.93206065,8.681902845
+35,John,Beacom,John_Beacom,CeNAM,USA,Faculty,M,Participant,0,0,0,1,0,1,0,1,1,Ohio State University,beacom.7@osu.edu,40.7988105,-82.5782294
+36,Ana,Becerril,Ana_Becerril,CeNAM,USA,Research Scientist,F,Senior Participant,0,1,1,1,1,1,1,1,1,Michigan State University,becerril@frib.msu.edu,42.70237935,-84.48038687
+37,Hannah,Bechtel,Hannah_Bechtel,CeNAM,USA,Graduate Student,,Participant,0,0,0,0,1,0,0,0,0,University of Notre Dame,hbechtel@nd.edu,41.70456775,-86.23822026
+38,Timothy,Beers,Timothy_Beers,CeNAM,USA,Faculty,M,Core Participant,0,0,1,0,0,0,0,0,0,University of Notre Dame,tbeers@nd.edu,41.70456775,-86.23822026
+39,Frank Leonel,Bello Garrote,Frank Leonel_Bello Garrote,CeNAM,Norway,Postdoc,M,Participant,0,1,0,0,0,0,1,0,0,University of Oslo,franklb@fys.uio.no ,59.9414173,10.72276834
+40,Tatyana,Belyaeva,Tatyana_Belyaeva,IANNA,Mexico,Faculty,F,Participant,0,0,0,0,0,0,0,0,0,Universidad Autonoma del Estado de Mexico,tbl@uaemex.mx,19.12939495,-98.77152396
+41,Hannah,Berg,Hannah_Berg,CeNAM,USA,Graduate Student,F,Participant,1,1,0,0,1,0,1,0,1,Michigan State University,bergh@frib.msu.edu,42.70237935,-84.48038687
+42,Maria,Bergemann,Maria_Bergemann,ChETEC Infra,Germany,Faculty,F,Senior Participant,0,0,1,0,0,1,0,0,1,Max Planck Institute for Astronomy,bergemann@mpia.de,49.3954,8.7234
+43,Andreas,Best,Andreas_Best,CeNAM,Italy,Faculty,M,,0,1,0,0,0,0,1,0,0,University of Naples Federico II,andreas.best@unina.it,40.8448906,14.257129
+44,Uddipta,Bhardwaj,Uddipta_Bhardwaj,CeNAM,Netherlands,Graduate Student,,Participant,1,0,0,1,1,1,0,0,1,University of Amsterdam,u.bhardwaj@uva.nl,52.36813335,4.889804156
+45,Khanak,Bhargava,Khanak_Bhargava,CeNAM,USA,Graduate Student,,Participant,1,1,1,0,0,1,0,0,1,Stony Brook University,khanak.bhargava@stonybrook.edu,40.896707,-73.1264427
+46,Roelof,Bijker,Roelof_Bijker,IANNA,Mexico,Faculty,,Participant,0,0,1,0,0,1,1,1,0,Universidad Nacional Autonoma de Mexico,bijker@nucleares.unam.mx,19.32160295,-99.18493018
+47,Sebastian,Blacker,Sebastian_Blacker,EMMI,Germany,Graduate Student,M,Participant,0,0,0,1,0,0,0,0,0,GSI Helmholtzzentrum fur Schwerionenforschung,s.blacker@gsi.de ,49.93206065,8.681902845
+48,Simon,Blouin,Simon_Blouin,CeNAM,Canada,Postdoc,M,Participant,1,0,1,0,0,1,0,0,0,University of Victoria,sblouin@uvic.ca,48.4697748,-123.3169956
+49,Luca,Boccioli,Luca_Boccioli,CeNAM,USA,Graduate Student,M,Participant,0,0,0,1,0,1,0,0,1,University of Notre Dame,lbocciol@nd.edu,41.70456775,-86.23822026
+50,Axel,Boeltzig,Axel_Boeltzig,ChETEC Infra,Germany,Postdoc,M,,1,1,0,0,0,0,1,0,1,Helmholtz-Zentrum Dresden-Rossendorf,a.boeltzig@hzdr.de,51.057451,13.95331088
+51,Konstantinos,Bosmpotinis,Konstantinos_Bosmpotinis,CeNAM,USA,Graduate Student,,Participant,1,1,1,0,1,0,1,0,1,Michigan State University/FRIB,bosmpoti@frib.msu.edu,42.7240388,-84.472076
+52,Dominic,Bowman,Dominic_Bowman,ChETEC,Belgium,Postdoc,M,Participant,0,0,1,0,0,1,0,0,1,KU Leuven,dominic.bowman@kuleuven.be,50.80571285,3.291537449
+53,Kristyn,Brandenburg,Kristyn_Brandenburg,CeNAM,USA,Graduate Student,F,Participant,0,1,1,0,1,0,0,0,0,Ohio University,kb851615@ohio.edu ,39.32417815,-82.10156481
+54,Kaley,Brauer,Kaley_Brauer,NuGRID,USA,Postdoc,,Participant,1,0,1,0,0,1,0,0,0,Harvard University,kaley.brauer@cfa.harvard.edu,42.37286758,-71.11845398
+55,Daniel,Bremmerer,Daniel_Bremmerer,ChETEC Infra,Germany,Faculty,M,Participant,0,1,0,0,1,0,1,0,0,Helmholtz-Zentrum Dresden-Rossendorf,d.bemmerer@hzdr.de ,51.057451,13.95331088
+56,Hannah,Brinkman,Hannah_Brinkman,ChETEC,Belgium,Postdoc,F,Participant,0,0,1,0,0,1,0,0,0,KU Leuven,hannah.brinkman@kuleuven.be,50.80571285,3.291537449
+57,Eric,Britt,Eric_Britt,CeNAM,USA,Graduate Student,M,Participant,0,0,0,0,0,1,0,0,0,Michigan State University,britteri@msu.edu ,42.70237935,-84.48038687
+58,Alex,Brown,Alex_Brown,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,0,0,0,0,1,0,Michigan State University,brown@frib.msu.edu,42.70237935,-84.48038687
+59,Edward,Brown,Edward_Brown,CeNAM,USA,Faculty,,Participant,0,0,0,1,0,1,0,0,0,Michigan State University,browned@msu.edu,42.70237935,-84.48038687
+60,Carl,Brune,Carl_Brune,CeNAM,USA,Faculty,M,Senior Participant,0,1,0,0,0,0,1,0,0,Ohio University,brune@ohio.edu,39.32417815,-82.10156481
+61,Tamas,Budner,Tamas_Budner,CeNAM,USA,Graduate Student,M,Participant,1,1,1,0,0,0,1,0,1,Michigan State University,tamasbudner@gmail.com,42.70237935,-84.48038687
+62,Raffaele,Buompane,Raffaele_Buompane,ChETEC,Italy,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,Second University of Naples,raffaele.buompane@unicampania.it,41.0636242,14.343
+63,Matthew,Burrows,Matthew_Burrows,CeNAM,USA,Postdoc,M,Participant,0,1,0,0,0,0,1,0,0,Louisiana State University,mburrows1@lsu.edu,30.40576185,-91.1859745
+64,Siemen,Burssens,Siemen_Burssens,ChETEC,Belgium,Graduate Student,,Participant,0,0,0,0,0,1,0,0,0,KU Leuven,siemen.burssens@kuleuven.be ,50.80571285,3.291537449
+65,Sean,Byrne,Sean_Byrne,CeNAM,USA,Graduate Student,M,Participant,1,1,0,0,0,0,1,0,0,University of Massachussets Lowell,Sean_byrne1@student.uml.edu,42.6499,-71.323
+66,Roger,Caballero-Folch,Roger_Caballero-Folch,CeNAM,Canada,Postdoc,M,Participant,1,0,1,1,1,1,1,0,0,TRIUMF,rcaballero-folch@triumf.ca,49.2475133,-123.2304555
+67,Jonathan,Cabrera Garcia,Jonathan_Cabrera Garcia,CeNAM,USA,Graduate Student,M,Participant,1,1,1,0,0,0,1,0,0,University of Notre Dame,jcabrer2@nd.edu,41.70456775,-86.23822026
+68,Antonio,Caciolli,Antonio_Caciolli,ChETEC Infra,Italy,Faculty,M,Participant,0,1,0,0,0,0,1,0,0,INFN Padua,antonio.caciolli@unipd.it,45.4090372,11.886
+69,David,Calvert,David_Calvert,CeNAM,USA,Graduate Student,,Participant,1,0,0,1,0,1,0,1,0,North Carolina State University,djcalve2@ncsu.edu,35.7714749,-78.6741935
+70,Jesus,Casal-Berbel,Jesus_Casal-Berbel,IANNA,Spain,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,Universidad de Sevilla,jcasal@us.es,37.3818133,-5.9910238
+71,Sierra,Casten,Sierra_Casten,CeNAM,USA,Graduate Student,,Participant,1,0,0,0,0,1,0,0,0,Michigan State University,castensi@msu.edu,42.70237935,-84.48038687
+72,Jorge Luis,Cervantes,Jorge Luis_Cervantes,IANNA,Mexico,Faculty,M,Participant,0,0,0,0,0,0,1,0,0,National Institute of Nuclear Research,jorge.cervantes@inin.gob.mx,19.3075547,-99.3895718
+73,Gabriele,Cescutti,Gabriele_Cescutti,ChETEC,Italy,Research Scientist,,Participant,0,0,1,0,0,1,0,0,0,INAF Trieste,gabriele.cescutti@inaf.it,45.64443135,13.77198911
+74,Soham,Chakraborty,Soham_Chakraborty,BRIDGCE,Canada,Postdoc,,Participant,1,1,1,0,1,0,0,0,1,TRIUMF,schakraborty@triumf.ca,49.2475133,-123.2304555
+75,Luiz Carlos,Chamon,Luiz Carlos_Chamon,IANNA,Brazil,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,Universidade de Sao Paulo,lchamon@if.usp.br,-23.5652201,-46.71258298
+76,Prasanta,Char,Prasanta_Char,CeNAM,Spain,Postdoc,,Participant,1,0,0,1,0,1,0,0,0,Universidad de Salamanca,prasanta.char@usal.es,40.9614141,-5.667462
+77,Bikash,Chauhan,Bikash_Chauhan,CeNAM,USA,Graduate Student,,Participant,1,1,0,0,0,0,1,0,1,Ohio University,bc990520@ohio.edu,39.32417815,-82.10156481
+78,Rui-Jiu,Chen,Rui-Jiu_Chen,ChETEC,Germany,Postdoc,,Participant,1,1,0,0,1,0,1,1,0,GSI Darmstadt,r.chen@gsi.de,49.93206065,8.681902845
+79,Cristina,Chiappini,Cristina_Chiappini,ChETEC,Germany,Faculty,F,Senior Participant,0,0,0,0,0,0,0,0,1,Leibnitz Institute for Astrophysics Potsdam,cristina.chiappini@aip.de,52.405,13.104
+80,Kelly,Chipps,Kelly_Chipps,EMMI,USA,Research Scientist,F,Participant,0,1,0,0,1,0,0,0,1,Oak Ridge National Laboratory,kchipps@gmail.com,35.93013315,-84.31193066
+81,Devarshi,Choudhury,Devarshi_Choudhury,CeNAM,Netherlands,Graduate Student,M,Participant,1,0,0,1,0,0,0,0,0,University of Amsterdam,d.choudhury@uva.nl,52.36813335,4.889804156
+82,Greg,Christian,Greg_Christian,CaNPAN,Canada,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,Saint Mary's University,greg.christian@smu.ca,44.63111455,-63.58013458
+83,Norbert,Christlieb,Norbert_Christlieb,CRC881,Germany,Faculty,M,Senior Participant,0,0,1,0,0,0,0,0,0,Heidelberg University,n.christlieb@lsw.uni-heidelberg.de,49.41931885,8.670203914
+84,Jolie,Cizewski,Jolie_Cizewski,CeNAM,USA,Faculty,F,Participant,0,1,0,0,1,0,0,0,1,Rutgers University,cizewski@physics.rutgers.edu,40.4929778,-74.44510808
+85,Maeve,Cockshutt,Maeve_Cockshutt,CaNPAN,Canada,Graduate Student,,Participant,1,1,0,0,0,1,0,0,0,TRIUMF,mcockshutt@triumf.ca,49.2475133,-123.2304555
+86,Benoit,Cote,Benoit_Cote,NuGRID,Hungary,Faculty,M,Senior Participant,0,0,0,0,0,1,0,0,0,Konkoly Observatory,benoit.cote@csfk.mta.hu,47.49973455,18.96302935
+87,Sean,Couch,Sean_Couch,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,0,0,1,0,1,0,Michigan State University,couch@pa.msu.edu,42.70237935,-84.48038687
+88,Manoel,Couder,Manoel_Couder,CeNAM,USA,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,University of Notre Dame,mcouder@nd.edu,41.70456775,-86.23822026
+89,Aaron,Couture,Aaron_Couture,CeNAM,USA,Faculty,M,Senior Participant,0,1,0,0,0,0,1,0,0,Los Alamos National Laboratory,acouture@lanl.gov,35.8190003,-106.2656274
+90,Borbala,Cseh,Borbala_Cseh,ChETEC,Hungary,Graduate Student,F,Participant,1,0,1,0,0,0,0,0,0,Konkoly Observatory,cseh.borbala@csfk.org,47.49973455,18.96302935
+91,Sanjana,Curtis,Sanjana_Curtis,CeNAM,USA,Postdoc,F,Participant,1,0,1,0,0,1,0,0,0,"University of California, Berkeley",sanjanacurtis@berkeley.edu,37.87186813,-122.260376
+92,Barbara Esther,da Fonseca Paes Ribeiro,Barbara Esther_da Fonseca Paes Ribeiro,IANNA,Argentina,Postdoc,F,Participant,1,1,0,0,0,0,0,0,0,Tandar Laboratory,paesribeirobarbara@gmail.com,-34.539,-58.4651
+93,Andre,Da Silva Schneider,Andre_Da Silva Schneider,ChETEC Infra,Sweden,Postdoc,M,Participant,0,1,0,0,0,1,0,0,0,Stockholm University,andre.schneider@astro.su.se,59.366141,18.05959296
+94,Barry,Davids,Barry_Davids,CaNPAN,Canada,Faculty,M,Participant,0,1,0,0,1,0,1,0,0,TRIUMF,davids@triumf.ca,49.2475133,-123.2304555
+95,Selma,de Mink,Selma_de Mink,ChETEC,Germany,Faculty,F,Senior Participant,0,0,1,0,0,1,0,0,0,Max Planck Institute for Astrophysics,SEdeMink@mpa-garching.mpg.de,48.2609893,11.6714324
+96,Richard,DeBoer,Richard_DeBoer,CeNAM,USA,Faculty,M,Senior Participant,0,1,0,0,0,0,1,0,0,University of Notre Dame,richard.j.deboer.12@nd.edu,41.70456775,-86.23822026
+97,Alex,Deibel,Alex_Deibel,CeNAM,USA,Faculty,M,Participant,0,1,0,0,0,1,0,0,0,University of Indiana,adeibel@iu.edu,39.77477735,-86.17696358
+98,Victoria,Delgado,Victoria_Delgado,CeNAM,USA,Graduate Student,F,Participant,1,1,1,1,0,1,0,0,0,Michigan State University,victoria.delgado02@utrgv.edu,42.70237935,-84.48038687
+99,Cade,Dembski,Cade_Dembski,CeNAM,USA,Graduate Student,,Participant,1,1,0,0,1,0,0,0,0,University of Notre Dame,Cdembski@nd.edu,41.70456775,-86.23822026
+100,Pavel,Denissenkov,Pavel_Denissenkov,NuGRID,Canada,Faculty,M,Senior Participant,0,0,0,0,0,1,0,0,0,University of Victoria,pavelden@uvic.ca,48.4697748,-123.3169956
+101,Joseph,Derkin,Joseph_Derkin,CeNAM,USA,Graduate Student,M,Participant,1,1,0,0,0,0,0,0,0,Ohio University,jd039218@ohio.edu,39.32417815,-82.10156481
+102,Siddhant,Deshmukh,Siddhant_Deshmukh,CRC881,Germany,Graduate Student,,Participant,0,1,1,0,0,1,0,0,0,Heidelberg University,sdeshmukh@lsw.uni-heidelberg.de ,49.41931885,8.670203914
+103,Neshad,Deva Pathirana,Neshad_Deva Pathirana,CeNAM,USA,Graduate Student,,Participant,1,0,0,0,0,0,0,1,0,Michigan State University,devapath@frib.msu.edu,42.70237935,-84.48038687
+104,Antonino,di Leva,Antonino_di Leva,ChETEC,Italy,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,Naples University,antonino.dileva@unina.it,47.9243608,15.081486
+105,Roland,Diehl,Roland_Diehl,ChETEC,Germany,Faculty,M,Participant,0,1,1,0,0,1,0,0,0,MPE Garching,rod@mpe.mpg.de,48.2612695,11.67159
+106,Iris,Dillmann,Iris_Dillmann,CeNAM,Canada,Faculty,F,Participant,0,1,0,0,1,0,1,1,0,TRIUMF,dillmann@triumf.ca,49.2475133,-123.2304555
+107,Nikolaos,Dimitrakopoulos,Nikolaos_Dimitrakopoulos,CeNAM,USA,Graduate Student,M,Participant,1,1,0,0,0,0,0,0,1,Central Michigan University,dimit2n@cmich.edu,43.58354995,-84.77464036
+108,Amelia,Doetsch,Amelia_Doetsch,CeNAM,USA,Graduate Student,M,Participant,1,0,0,0,1,0,1,0,1,Michigan State University,doetsch@frib.msu.edu,42.70237935,-84.48038687
+109,Akira,Dohi,Akira_Dohi,UKAKUREN,Japan,Postdoc,M,Participant,1,1,1,0,0,1,0,0,0,RIKEN,dohiak@hiroshima-u.ac.jp,35.690557,139.743591
+110,Alex,Dombos,Alex_Dombos,CeNAM,USA,Postdoc,M,Participant,0,1,0,0,1,0,1,0,0,University of Notre Dame,adombos@nd.edu,41.70456775,-86.23822026
+111,Cesar,Domingo Pardo,Cesar_Domingo Pardo,NuGRID,Spain,Research Scientist,M,Senior Participant,0,1,0,0,0,0,0,0,0,University of Valencia,Cesar.Domingo@ific.uv.es,39.4768614,-0.38672407
+112,Pedro Luiz,Domingues Magro,Pedro Luiz_Domingues Magro,IANNA,Brazil,Graduate Student,,Participant,1,1,0,0,0,0,0,0,0,Universidade de Sao Paulo,pedro.dominguesm@usp.br,-23.5652201,-46.71258298
+113,Inma,Dominguez,Inma_Dominguez,CeNAM,Spain,Faculty,,Participant,0,0,1,0,0,1,0,0,0,University of Granada,inma@ugr.es,37.1827211,-3.6056278
+114,Joseph,Dopfer,Joseph_Dopfer,CeNAM,USA,Graduate Student,M,Participant,0,1,1,1,1,1,1,1,1,Michigan State University,dopfer@frib.msu.edu,42.70237935,-84.48038687
+115,Thibaut,Dumont,Thibaut_Dumont,ChETEC Infra,France,Postdoc,M,Participant,1,1,1,0,0,1,1,0,0,IPHC-Universite de Strasbourg,thibaut.dumont@iphc.cnrs.fr,48.60808215,7.714264622
+116,Anirban,Dutta,Anirban_Dutta,CeNAM,USA,Postdoc,,Participant,1,0,0,0,0,1,0,0,0,Michigan State University,anirbaniamdutta@gmail.com,42.70237935,-84.48038687
+117,Alfredo,Estrade,Alfredo_Estrade,CeNAM,USA,Faculty,M,Core Participant,0,0,0,0,1,0,0,0,0,Central Michigan University,estra1a@cmich.edu,43.58354995,-84.77464036
+118,Rana,Ezzeddine,Rana_Ezzeddine,CeNAM,USA,Faculty,F,Participant,0,0,1,0,0,1,0,0,0,University of Florida,rezzeddine@ufl.edu,29.6328837,-82.34901302
+119,Ruoyu,Fang,Ruoyu_Fang,CeNAM,USA,Graduate Student,,Participant,0,1,1,0,1,0,0,0,0,University of Notre Dame,rfang@nd.edu ,41.70456775,-86.23822026
+120,Ebraheem,Faraq,Ebraheem_Faraq,CeNAM,USA,Graduate Student,,Participant,0,1,1,0,0,1,0,1,0,Arizona State University,Ekfarag@asu.edu,33.4213174,-111.9331631
+121,Rob,Farmer,Rob_Farmer,ChETEC,Germany,Postdoc,M,Participant,0,1,0,0,0,1,0,0,0,Max Planck Institute for Astrophysics,,48.2609893,11.6714324
+122,Juan Pablo,Fernandez-Garcia,Juan Pablo_Fernandez-Garcia,IANNA,Spain,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,Universidad de Sevilla,jpfernandez@us.es,37.3818133,-5.9910238
+123,Brian,Fields,Brian_Fields,CeNAM,USA,Faculty,M,Participant,0,1,1,0,0,1,0,1,1,University of Illinois,bdfields@illinois.edu,40.07615445,-88.22331341
+124,Tobias,Fischer,Tobias_Fischer,ChETEC,Poland,Faculty,M,Participant,0,0,0,1,0,1,0,1,0,University of Wroclaw,tobias.fischer@uwr.edu.pl,51.1058732,17.0631808
+125,Andreas,Floers,Andreas_Floers,EMMI,Germany,Postdoc,M,Participant,0,0,0,0,0,0,0,0,0,GSI Helmholtzzentrum fur Schwerionenforschung, a.floers@gsi.de,49.93206065,8.681902845
+126,Paul,Fong,Paul_Fong,NuGRID,UK,Graduate Student,M,Participant,0,1,0,0,0,0,1,0,0,University of Hull,P.fong-2018@hull.ac.uk ,53.7710908,-0.368390596
+127,Andreea,Font,Andreea_Font,BRIDGCE,UK,Faculty,,,0,0,1,0,0,0,0,0,0,Loverpool John Moores University,A.S.Font@ljmu.ac.uk,53.406561,-2.975332
+128,Alba,Formicola,Alba_Formicola,ChETEC,Italy,Faculty,F,Senior Participant,0,1,0,0,0,0,0,0,0,"Laboratori Nazionali del Gran Sasso, INFN",alba.formicola@lngs.infn.it,42.4203,13.515
+129,Christoforos,Frantzis,Christoforos_Frantzis,CeNAM,USA,Graduate Student,M,Participant,1,1,0,0,1,1,0,0,0,Michigan State University/FRIB,frantzis@frib.msu.edu,42.7240388,-84.472076
+130,Anna,Frebel,Anna_Frebel,CeNAM,USA,Faculty,F,Core Participant,0,0,1,0,0,0,1,0,1,Massachusetts Institute of Technology,afrebel@mit.edu,42.3582529,-71.09662724
+131,Carla,Frohlich,Carla_Frohlich,CeNAM,USA,Faculty,F,Core Participant,0,0,0,0,0,1,1,0,1,North Carolina State University,cfrohli@ncsu.edu,35.7714749,-78.6741935
+132,Daniel,Galaviz,Daniel_Galaviz,IANNA,Portugal,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,Universidade de Lisboa,galaviz@ciencias.ulisboa.pt,38.7525379,-9.156845595
+133,Andrew,Gallagher,Andrew_Gallagher,CRC881,Germany,Faculty,M,Senior Participant,0,0,1,0,0,0,0,0,0,Max Planck Institute for Astronomy  Heidelberg,gallagher@mpia.de,49.3954011,8.7234095
+134,Duncan,Galloway,Duncan_Galloway,CeNAM,Australia,Faculty,M,Participant,0,0,0,1,0,1,0,0,1,Monash University,duncan.galloway@monash.edu,-37.8774234,145.0449669
+135,Stefano,Garcia,Stefano_Garcia,ChETEC,Belgium,Graduate Student,M,Participant,0,0,0,0,0,1,0,0,0,KU Leuven,stefanorenzo.garciacastaneda@kuleuven.be ,50.80571285,3.291537449
+136,Umesh,Garg,Umesh_Garg,CeNAM,USA,Faculty,M,Participant,0,0,0,1,0,0,0,0,0,University of Notre Dame,garg@nd.edu,41.70456775,-86.23822026
+137,Lucas,Garrido Gomez,Lucas_Garrido Gomez,IANNA,Spain,Graduate Student,M,Participant,1,1,0,0,0,0,0,0,0,Universidad de Sevilla,lgarrido2@us.es,37.3818133,-5.9910238
+138,Leandro,Gasques,Leandro_Gasques,IANNA,Brazil,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,Universidade de Sao Paulo,lgasques@if.usp.br,-23.5652201,-46.71258298
+139,Bibek,Gautam,Bibek_Gautam,CeNAM,USA,Graduate Student,,Participant,1,1,1,1,1,1,0,0,0,North Carolina State University,bgautam2@ncsu.edu,35.7714749,-78.6741935
+140,Zhuang,Ge,Zhuang_Ge,CeNAM,Finland,Research Scientist,,Participant,0,1,1,1,1,1,1,1,1,University of Jyvaskyla,zhuang.z.ge@jyu.fi,62.22902785,25.74003691
+141,Somdutta,Ghosh,Somdutta_Ghosh,CeNAM,USA,Postdoc,,Participant,1,0,0,0,0,1,0,0,0,University of New Hampshire,sghosh23@ncsu.edu ,43.13795471,-70.93572998
+142,Tanmoy,Ghosh,Tanmoy_Ghosh,ChETEC,Croatia,Postdoc,,Participant,1,1,1,0,0,1,0,1,1,University of Zagreb,ghoshtanmoy536@gmail.com,42.64252845,18.10266379
+143,Lucio,Gialanella,Lucio_Gialanella,ChETEC,Italy,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,Second University of Naples,lucio.gialanella@na.infn.it,41.0636242,14.343
+144,Brad,Gibson,Brad_Gibson,ChETEC Infra,UK,Faculty,M,Participant,0,0,1,0,0,1,0,0,1,University of Hull,Brad.Gibson@hull.ac.uk ,53.7710908,-0.368390596
+145,Simon,Giraud,Simon_Giraud,CeNAM,USA,Postdoc,M,Participant,0,1,0,1,1,1,1,1,0,Michigan State University,giraud@frib.msu.edu ,42.70237935,-84.48038687
+146,Jan,Glorius,Jan_Glorius,ChETEC,Germany,Postdoc,M,Senior Participant,0,1,0,0,0,0,0,0,0,GSI Darmstadt,j.glorius@gsi.de,49.93206065,8.681902845
+147,Kathrin,Gobel,Kathrin_Gobel,ChETEC,Germany,Faculty,F,Senior Participant,0,1,0,0,0,0,0,0,0,Universitat Frankfurt IAP,goebel@physik.uni-frankfurt.de,50.1277641,8.6695088
+148,Kyle,Godbey,Kyle_Godbey,CeNAM,USA,Faculty,,Participant,0,1,0,0,0,1,1,0,1,Michigan State University,kylegodbey@gmail.com,42.70237935,-84.48038687
+149,David,Godos Valencia,David_Godos Valencia,IANNA,Mexico,Graduate Student,M,Participant,1,1,0,0,0,0,0,0,1,Universidad Nacional Autonoma de Mexico,dgodosv@gmail.com,19.32160295,-99.18493018
+150,Jonay,Gonzalez Hernandez,Jonay_Gonzalez Hernandez,ChETEC,Spain,Faculty,,Senior Participant,0,0,1,0,0,0,0,0,0,IAC Canary Islands,jonay@iac.es,28.47470255,-16.30822075
+151,Erin,Good,Erin_Good,CeNAM,USA,Research Scientist,F,Participant,0,1,1,0,1,0,1,0,1,Pacific Northwest National Laboratory,erin.good@pnnl.gov,46.3441279,-119.2755502
+152,Tyler,Gorda,Tyler_Gorda,NuGRID,Germany,Postdoc,M,Participant,0,0,0,1,0,0,0,0,0,TU Darmstadt,tyler.gorda@physik.tu-darmstadt.de,49.93146155,8.678997963
+153,Vanessa,Graber,Vanessa_Graber,CeNAM,Spain,Postdoc,F,Participant,0,0,0,1,0,1,0,0,0,Institute of Space Sciences (ICE-CSIC),graber@ice.csic.es,41.501794,2.1112952
+154,Justin,Grace,Justin_Grace,CeNAM,USA,Graduate Student,M,Participant,0,0,0,0,0,1,0,0,0,Michigan State University,graceju1@msu.edu ,42.70237935,-84.48038687
+155,Chris,Griffin,Chris_Griffin,CeNAM,Canada,Postdoc,M,Participant,1,0,0,0,1,0,1,0,0,TRIUMF,cgriffin@triumf.ca,49.2475133,-123.2304555
+156,Sabrina,Gronow,Sabrina_Gronow,CRC881,Germany,Graduate Student,F,Participant,0,0,1,1,0,1,0,0,0,Heidelberg University,sabrina.gronow@h-its.org ,49.41931885,8.670203914
+157,Federico,Guercilena,Federico_Guercilena,CeNAM,Germany,Postdoc,M,Participant,0,0,0,1,0,1,0,0,0,"IKP, TU Darmstadt",fguercilena@theorie.ikp.physik.tu-darmstadt.de ,49.8785782,8.6564527
+158,Alessandra,Guglielmetti,Alessandra_Guglielmetti,ChETEC,Italy,Faculty,F,Senior Participant,0,0,0,0,0,0,1,0,0,University of Milano,alessandra.guglielmetti@mi.infn.it,45.4798585,9.22824384
+159,Francesca,Gulminelli,Francesca_Gulminelli,ChETEC,France,Faculty,F,Senior Participant,0,0,0,1,0,0,0,0,0,Laboratoire de Physique Corpusculaire de Caen,gulminelli@lpccaen.in2p3.fr,49.2141305,-0.366311037
+160,Alexander,Hackett,Alexander_Hackett,BRIDGCE,Czech Republic,Postdoc,M,Participant,1,1,1,1,0,1,0,0,1,Institute of Physics of the Czech Academy of Sciences,hackett@fzu.cz,50.12416458,14.46955013
+161,Pravita,Hallur,Pravita_Hallur,CeNAM,Netherlands,Graduate Student,F,Participant,1,0,0,1,0,1,0,0,1,University of Amsterdam,p.hallur@uva.nl,52.36813335,4.889804156
+162,Gulakhshan,Hamad,Gulakhshan_Hamad,CeNAM,USA,Graduate Student,,Participant,0,1,0,0,0,1,0,0,0,Ohio University,Gh824514@ohio.edu ,39.32417815,-82.10156481
+163,Camilla,Hansen,Camilla_Hansen,CRC881,Germany,Faculty,F,Senior Participant,0,0,1,0,0,0,0,0,0,Max Planck Institute for Astronomy  Heidelberg,hansen@mpia-hd.mpg.de,49.3954011,8.7234095
+164,Terese,Hansen,Terese_Hansen,ChETEC Infra,Sweden,Postdoc,F,Participant,0,0,1,0,0,0,0,0,0,Stockholm University,thidemannhansen@gmail.com,59.366141,18.05959296
+165,Lauren,Harewood,Lauren_Harewood,CaNPAN,USA,Graduate Student,,Participant,1,0,0,0,0,0,1,0,0,University of Notre Dame,Lharewoo@nd.edu,41.70456775,-86.23822026
+166,Sarah,Harrouz,Sarah_Harrouz,ChETEC,France,Graduate Student,F,Participant,0,1,1,0,0,0,0,0,0,IJCLab France,harrouz@ipno.in2p3.fr,48.6983272,2.1768071
+167,George,Harvey,George_Harvey,NuGRID,UK,Graduate Student,M,Participant,0,0,1,0,0,0,0,0,0,University of Hull,G.HARVEY-2017@hull.ac.uk,53.7710908,-0.368390596
+168,Lyra,Hawkins,Lyra_Hawkins,BRIDGCE,UK,Graduate Student,,Participant,1,1,1,0,0,1,1,0,1,University of Hull,l.j.hawkins-2021@hull.ac.uk,53.7710908,-0.368390596
+169,Seiya,Hayakawa,Seiya_Hayakawa,UKAKUREN,Japan,Postdoc,M,Participant,0,1,0,0,0,0,0,0,0,University of Tokyo,hayakawa@cns.s.u-tokyo.ac.jp,35.71171565,139.7637457
+170,Kai,Hebeler,Kai_Hebeler,EMMI,Germany,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,TU Darmstadt,kai.hebeler@physik.tu-darmstadt.de,49.93146155,8.678997963
+171,Alexander,Heger,Alexander_Heger,CeNAM,Australia,Faculty,M,Participant,0,1,1,1,0,1,1,1,0,Monash University,alexander.heger@monash.edu,-37.8774234,145.0449669
+172,Michael,Heil,Michael_Heil,ChETEC,Germany,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,GSI Darmstadt,m.heil@gsi.de,49.93206065,8.681902845
+173,Lauren,Henderson,Lauren_Henderson,CeNAM,USA,Graduate Student,,Participant,1,0,1,0,0,0,0,0,0,University of Notre Dame,lhender6@nd.edu,41.70456775,-86.23822026
+174,Falk,Herwig,Falk_Herwig,NuGRID,Canada,Faculty,M,Senior Participant,0,0,0,0,0,1,0,0,0,University of Victoria,fherwig@uvic.ca,48.4697748,-123.3169956
+175,Lauren,Hicks,Lauren_Hicks,CeNAM,USA,Graduate Student,F,Participant,0,1,0,0,0,0,0,0,0,Michigan State University,selensky@msu.edu ,42.70237935,-84.48038687
+176,Johann,Higl,Johann_Higl,CRC881,Germany,Postdoc,,Participant,0,0,0,0,0,1,0,0,1,Heidelberg University,johann.higl@h-its.org,49.41931885,8.670203914
+177,Yutaka,Hirai,Yutaka_Hirai,UKAKUREN,USA,Postdoc,,Participant,1,0,1,0,0,1,0,0,0,University of Notre Dame,yhirai2@nd.edu,41.70456775,-86.23822026
+178,Raphael,Hirschi,Raphael_Hirschi,ChETEC,UK,Faculty,M,Senior Participant,0,0,0,0,0,1,1,1,1,Keele University,r.hirschi@keele.ac.uk,53.0016756,-2.270694219
+179,Alexander,Holas,Alexander_Holas,ChETEC Infra,Germany,Graduate Student,M,Participant,1,0,0,0,0,1,0,0,0,Heidelberg Institute for Theoretical Studies,alexander.holas@h-its.org,49.4153802,8.7365752
+180,Erika,Holmbeck,Erika_Holmbeck,CeNAM,USA,Postdoc,F,Participant,0,0,1,1,0,0,1,0,0,Carnegie Observatories,erikaholmbeck@gmail.com,34.15631375,-118.1334413
+181,Jeremy,Holt,Jeremy_Holt,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,Texas A&M University,holt@physics.tamu.edu,30.6108618,-96.35206061
+182,Satoshi,Honda,Satoshi_Honda,UKAKUREN,Japan,Faculty,,Senior Participant,0,0,1,0,0,0,0,0,0,University of Hyogo,honda@nhao.jp,34.87705485,134.6495213
+183,Jihye,Hong,Jihye_Hong,CeNAM,USA,Graduate Student,,Participant,0,0,1,0,0,0,0,0,0,University of Notre Dame,jhong5@nd.edu,41.70456775,-86.23822026
+184,Ashley,Hood,Ashley_Hood,CeNAM,USA,Postdoc,F,Participant,0,1,1,0,0,0,1,0,1,Texas A&M University,ashley.a.d.hood@gmail.com ,30.6108618,-96.35206061
+185,Mariska,Hoogkamer,Mariska_Hoogkamer,CeNAM,Netherlands,Graduate Student,F,Participant,1,0,0,1,0,1,0,0,1,University of Amsterdam,m.m.hoogkamer@uva.nl,52.36813335,4.889804156
+186,Charles,Horowitz,Charles_Horowitz,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,Indiana University,horowit@indiana.edu,39.1802358,-86.50935263
+187,Suqing,Hou,Suqing_Hou,NuGRID,USA,Faculty,,Participant,0,0,0,0,0,0,1,0,0,Chinese Academy of Sciences,sqhou@impcas.ac.cn ,39.90933665,116.3297146
+188,Alicen,Houff,Alicen_Houff,CeNAM,USA,Graduate Student,,Participant,1,0,0,0,1,0,0,0,0,University of Notre Dame,ahouff@nd.edu,41.70456775,-86.23822026
+189,James,Huffman,James_Huffman,CeNAM,USA,Graduate Student,,Participant,1,0,0,0,1,0,0,0,0,Michigan State University,huffman@frib.msu.edu,42.70237935,-84.48038687
+190,Sabrina,Huth,Sabrina_Huth,EMMI,Germany,Graduate Student,F,Participant,0,0,0,1,0,0,0,0,0,TU Darmstadt,huth@theorie.ikp.physik.tu-darmstadt.de,49.93146155,8.678997963
+191,Shun,Iimura,Shun_Iimura,UKAKUREN,Japan,Faculty,M,Participant,0,1,0,0,1,0,1,0,1,Rikkyo University,shun.iimura@rikkyo.ac.jp,35.72985055,139.7030216
+192,Luc,Ijspeert,Luc_Ijspeert,ChETEC,Belgium,Graduate Student,,Participant,0,0,0,0,0,1,0,0,0,KU Leuven,luc.ijspeert@kuleuven.be,50.80571285,3.291537449
+193,Nobuaki,Imai,Nobuaki_Imai,UKAKUREN,Japan,Faculty,,Participant,0,1,0,1,1,0,1,0,0,"CNS, the University of Tokyo",n.imai@cns.s.u-tokyo.ac.jp,35.9019845,139.9362233
+194,Gianluca,Imbriani,Gianluca_Imbriani,ChETEC,Italy,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,University of Naples Federico II,G.imbriani@unina.it,40.8448906,14.257129
+195,Gina,Isar,Gina_Isar,ChETEC,Romania,Research Scientist,F,Senior Participant,0,0,0,0,0,0,0,0,1,Institute of Space Science Bucharest,gina.isar@spacescience.ro,44.3573732,26.0366946
+196,Miho,Ishigaki,Miho_Ishigaki,UKAKUREN,Japan,Faculty,F,Senior Participant,0,0,1,0,0,0,0,0,0,NAOJ,miho.ishigaki@nao.ac.jp,35.68351,139.55963
+197,Hironobu,Ishiyama,Hironobu_Ishiyama,UKAKUREN,Japan,Faculty,M,Senior Participant,0,0,0,0,1,0,0,0,0,RIKEN Nishina Center,hironobu.ishiyama@riken.jp,35.78944,139.62333
+198,Chikako,Ishizuka,Chikako_Ishizuka,UKAKUREN,Japan,Faculty,F,Participant,0,0,0,1,0,0,1,0,1,Tokyo Institute of Technology,ishizuka.c.aa@m.titech.ac.jp,35.60503805,139.6827407
+199,Tadaaki,Isobe,Tadaaki_Isobe,UKAKUREN,Japan,Faculty,,Senior Participant,0,0,0,0,1,0,0,0,0,RIKEN Nishina Center,isobe@riken.jp,35.78944,139.62333
+200,Joshua,Issa,Joshua_Issa,CaNPAN,Canada,Graduate Student,,Participant,1,1,1,0,0,1,0,0,0,University of Victoria,joshuaissa@uvic.ca,48.4697748,-123.3169956
+201,Robert,Izzard,Robert_Izzard,BRIDGCE,UK,Faculty,M,Participant,0,0,1,0,0,1,0,0,1,University of Surrey,r.izzard@surrey.ac.uk,51.24307815,-0.590054488
+202,Maximilian,Jacobi,Maximilian_Jacobi,EMMI,Germany,Graduate Student,,Participant,0,0,0,0,0,1,0,0,0,TU Darmstadt,mjacobi@theorie.ikp.physik.tu-darmstadt.de ,49.93146155,8.678997963
+203,Seth,Jacobson,Seth_Jacobson,CeNAM,USA,Faculty,,Participant,0,0,1,0,0,1,0,0,0,Michigan State University,seth@msu.edu,42.70237935,-84.48038687
+204,Rahul,Jain,Rahul_Jain,CeNAM,USA,Postdoc,M,Participant,1,1,0,0,1,0,1,1,1,Lawrence Livermore National Laboratory,jain15@llnl.gov,37.6820273,-121.7062915
+205,Heshani,Jayatissa,Heshani_Jayatissa,CeNAM,USA,Research Scientist,F,Participant,0,1,0,0,1,0,0,0,0,Los Alamos National Laboratory,hesh.jayatissa@gmail.com,35.8190003,-106.2656274
+206,Desa,Jelavic Malenica,Desa_Jelavic Malenica,ChETEC,Croatia,Research Scientist,,Participant,0,0,0,0,1,0,1,0,0,Rudjer Boskovic Institute,djelavic@irb.hr ,45.8296219,15.9879508
+207,Anders,Jerkstrand,Anders_Jerkstrand,ChETEC,Sweden,Faculty,M,Participant,0,0,0,0,0,1,0,0,0,Stockholm University,anders.jerkstrand@astro.su.se,59.366141,18.05959296
+208,Alexander,Ji,Alexander_Ji,CeNAM,USA,Faculty,M,Participant,0,0,1,0,0,0,0,0,0,University of Chicago,alexji@uchicago.edu,41.784977,-87.59052371
+209,Kayleigh,Johnson,Kayleigh_Johnson,CeNAM,USA,Graduate Student,F,Participant,0,0,0,0,0,1,1,0,0,Michigan State University,john7891@msu.edu,42.70237935,-84.48038687
+210,Cole,Johnston,Cole_Johnston,ChETEC,Belgium,Graduate Student,,Participant,0,0,0,0,0,1,0,0,0,KU Leuven,colecampbell.johnston@kuleuven.be,50.80571285,3.291537449
+211,Zac,Johnston,Zac_Johnston,CeNAM,USA,Postdoc,M,Participant,0,0,0,0,0,1,0,0,1,Michigan State University,zacjohn@msu.edu,42.70237935,-84.48038687
+212,Chloe,Jones,Chloe_Jones,CeNAM,USA,Graduate Student,,Participant,1,1,1,0,1,0,1,1,1,University of Notre Dame,cjones38@nd.edu,41.70456775,-86.23822026
+213,Yenuel,Jones-Alberty,Yenuel_Jones-Alberty,CeNAM,USA,Graduate Student,M,Participant,0,1,0,0,0,0,0,0,0,Ohio University,yj186816@ohio.edu ,39.32417815,-82.10156481
+214,Finia,Jost,Finia_Jost,CeNAM,USA,Graduate Student,,Participant,1,0,0,1,0,1,0,0,0,TU Darmstadt,finia.jost@tu-darmstadt.de,49.93146155,8.678997963
+215,Matthias,Junker,Matthias_Junker,ChETEC,Italy,Faculty,,Senior Participant,0,1,0,0,0,0,0,0,0,"Laboratori Nazionali del Gran Sasso, INFN",junker@lngs.infn.it,42.4203,13.515
+216,Oliver,Just,Oliver_Just,CeNAM,Germany,Postdoc,M,Participant,1,0,0,0,0,1,0,0,0,GSI Darmstadt,o.just@gsi.de,49.93206065,8.681902845
+217,Toshitaka,Kajino,Toshitaka_Kajino,UKAKUREN,Japan,Faculty,M,Senior Participant,0,0,0,0,0,0,0,1,0,NAOJ,kajino@nao.ac.jp,35.68351,139.55963
+218,Anu,Kankainen,Anu_Kankainen,ChETEC,Finland,Faculty,F,Senior Participant,0,0,0,0,1,0,1,0,0,University of Jyvaskyla,anu.kankainen@jyu.fi ,62.22902785,25.74003691
+219,Amanda,Karakas,Amanda_Karakas,CeNAM,USA,Faculty,F,Participant,0,1,1,0,0,1,0,0,0,Monash University,Amanda.Karakas@monash.edu,-37.8774234,145.0449669
+220,Iva,Karovicova,Iva_Karovicova,CRC881,Germany,Postdoc,,Participant,0,0,1,0,0,0,0,0,0,Heidelberg University,karovicova@lsw.uni-heidelberg.de ,49.41931885,8.670203914
+221,Tejpreet,Kaur,Tejpreet_Kaur,BRIDGCE,India,Graduate Student,,Participant,1,0,1,0,0,1,1,0,1,Punjab University,tejpreetkaur95@gmail.com,31.56993705,74.30894729
+222,Takahiro,Kawabata,Takahiro_Kawabata,UKAKUREN,Japan,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,Osaka University,kawabata@phys.sci.osaka-u.ac.jp,34.51119925,135.631448
+223,James,Keegans,James_Keegans,ChETEC Infra,UK,Faculty,M,Participant,0,1,1,0,0,1,1,0,1,University of Hull,j.d.keegans@hull.ac.uk,53.7710908,-0.368390596
+224,Wolfgang,Kerzendorf,Wolfgang_Kerzendorf,CeNAM,USA,Faculty,,Participant,0,1,1,1,0,1,0,0,0,Michigan State University,wkerzend@msu.edu,42.70237935,-84.48038687
+225,Om,Khanal,Om_Khanal,CeNAM,USA,Graduate Student,,Participant,0,0,0,1,0,0,0,0,0,Western Michigan University,ombhadra.khanal@wmich.edu ,42.28333755,-85.60950673
+226,Yves,Kini,Yves_Kini,CeNAM,Netherlands,Graduate Student,,Participant,1,0,0,1,0,1,0,0,1,University of Amsterdam,y.kini@uva.nl,52.36813335,4.889804156
+227,Jaime L.,Klapp,Jaime L._Klapp,IANNA,Mexico,Faculty,,Participant,0,0,0,0,0,1,0,0,0,National Institute of Nuclear Research,jaime.klapp@inin.gob.mx,19.3075547,-99.3895718
+228,James,Kneller,James_Kneller,CeNAM,USA,Faculty,M,Participant,0,0,1,0,0,1,0,1,0,North Carolina State University,jpknelle@ncsu.edu,35.7714749,-78.6741935
+229,Chiaki,Kobayashi,Chiaki_Kobayashi,BRIDGCE,UK,Faculty,F,,0,0,1,0,0,1,0,0,0,University of Hertfordshire,c.kobayashi@herts.ac.uk,51.75174425,-0.239049794
+230,Andreas,Koch,Andreas_Koch,CRC881,Germany,Faculty,,Senior Participant,0,0,1,0,0,0,0,0,0,Heidelberg University,andreas.koch@uni-heidelberg.de,49.41931885,8.670203914
+231,Polychronis,Koliogiannis Koutmiridis,Polychronis_Koliogiannis Koutmiridis,ChETEC,Croatia,Postdoc,,Participant,1,0,0,1,0,1,0,0,1,University of Zagreb,pkoliogi.phy@pmf.hr,42.64252845,18.10266379
+232,Dominik,Koll,Dominik_Koll,ChETEC Infra,Germany,Graduate Student,M,Participant,1,0,1,0,1,0,0,0,0,"HZDR, ANU",d.koll@hzdr.de,51.057451,13.9533109
+233,Reiner,Kruecken,Reiner_Kruecken,CaNPAN,Canada,Faculty,M,Participant,0,0,0,0,1,0,0,0,0,TRIUMF,reinerk@triumf.ca,49.2475133,-123.2304555
+234,Shigeru,Kubono,Shigeru_Kubono,UKAKUREN,Japan,Research Scientist,,Participant,0,1,1,0,1,0,1,0,1,RIKEN Nishina Center,kubono@riken.jp,35.78944,139.62333
+235,Sema,Kucuksucu,Sema_Kucuksucu,ChETEC,Croatia,Graduate Student,,Participant,0,1,0,0,0,0,1,0,1,University of Zagreb,semakucuksucu@gmail.com,42.64252845,18.10266379
+236,Takami,Kuroda,Takami_Kuroda,CeNAM,Germany,Postdoc,,Participant,0,0,0,1,0,1,0,1,0,TU Darmstadt,takami.kuroda@physik.tu-darmstadt.de ,49.93146155,8.678997963
+237,Jan,Kuske,Jan_Kuske,EMMI,Germany,Graduate Student,M,Participant,1,0,0,0,0,1,0,0,0,TU Darmstadt,jan.kuske@tu-darmstadt.de,49.93146155,8.678997963
+238,Sean,Kuvin,Sean_Kuvin,CeNAM,USA,Research Scientist,M,Participant,0,1,0,0,0,0,1,0,1,Los Alamos National Laboratory,kuvin@lanl.gov,35.8190003,-106.2656274
+239,Rebecca,Kyer,Rebecca_Kyer,CeNAM,USA,Graduate Student,F,Participant,0,0,0,0,0,1,0,0,0,Michigan State University,rkyer@msu.edu,42.70237935,-84.48038687
+240,Marco,La Cognata,Marco_La Cognata,ChETEC,Italy,Research Scientist,M,Participant,0,1,0,0,1,0,1,0,0,INFN,lacognata@lns.infn.it,50.6332784,3.0577767
+241,Alison,Laird,Alison_Laird,ChETEC,UK,Faculty,F,Senior Participant,0,0,0,0,0,1,1,0,0,University of York,alison.laird@york.ac.uk,53.9453903,-1.031459294
+242,Sudhanva,Lalit,Sudhanva_Lalit,CeNAM,USA,Postdoc,M,Participant,1,1,0,1,0,1,1,0,1,Michigan State University,lalit@frib.msu.edu,42.70237935,-84.48038687
+243,Karlheinz,Langanke,Karlheinz_Langanke,ChETEC,Germany,Faculty,M,Senior Participant,0,0,0,0,0,0,0,1,0,GSI Darmstadt,k.langanke@gsi.de,49.93206065,8.681902845
+244,Christoph,Langer,Christoph_Langer,ChETEC,Germany,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,University of Applied Sciences Aachen,langer@fh-aachen.de,50.75670275,6.0950565
+245,Ann-Cecilie,Larsen,Ann-Cecilie_Larsen,ChETEC,Norway,Faculty,F,Senior Participant,0,0,0,0,1,0,0,0,0,Oslo Cyclotron Laboratory,a.c.larsen@fys.uio.no,59.948674,10.71465
+246,James,Lattimer,James_Lattimer,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,Stony Brook University,james.lattimer@stonybrook.edu,40.896707,-73.1264427
+247,Amber,Lauer-Coles,Amber_Lauer-Coles,CeNAM,USA,Postdoc,F,Participant,1,1,0,0,0,1,1,0,0,Brookhaven National Laboratory,acoles@bnl.gov,40.8762408,-72.87131343
+248,Kristina,Launey,Kristina_Launey,CeNAM,USA,Faculty,F,Participant,0,1,0,0,0,0,1,1,1,Louisiana State University,klauney@lsu.edu,30.40576185,-91.1859745
+249,Thomas,Lawson,Thomas_Lawson,NuGRID,UK,Faculty,M,Participant,0,1,1,0,0,1,1,0,1,University of Hull,t.v.lawson@hull.ac.uk,53.7710908,-0.368390596
+250,Jose Antonio,Lay,Jose Antonio_Lay,IANNA,Spain,Faculty,M,Participant,0,1,0,0,0,0,0,0,1,Universidad de Sevilla,lay@us.es,37.3818133,-5.9910238
+251,Guy,Leckenby,Guy_Leckenby,CeNAM,Canada,Graduate Student,M,Participant,1,0,0,0,1,0,1,1,0,TRIUMF,Guy.leckenby@gmail.com,49.2475133,-123.2304555
+252,Claudia,Lederer,Claudia_Lederer,ChETEC,UK,Faculty,F,Senior Participant,0,0,0,0,0,1,1,0,0,University of Edinburgh,claudia.lederer-woods@ed.ac.uk,55.94407645,-3.188373556
+253,Hye Young,Lee,Hye Young_Lee,CeNAM,USA,Faculty,F,Participant,0,1,0,0,0,0,1,0,0,Los Alamos National Laboratory,hylee@lanl.gov,35.8190003,-106.2656274
+254,Yeunhwan,Lim,Yeunhwan_Lim,EMMI,Germany,Postdoc,M,Participant,0,0,0,1,0,0,0,0,0,TU Darmstadt,ylim@theorie.ikp.physik.tu-darmstadt.de,49.93146155,8.678997963
+255,Marco,Limongi,Marco_Limongi,ChETEC,Italy,Research Scientist,,Participant,0,1,1,0,0,0,0,0,0,National Institute for Astrophysics - Rome,marco.limongi@inaf.it,41.8397403,12.6489285
+256,Georgios,Lioutas,Georgios_Lioutas,EMMI,Germany,Graduate Student,M,Participant,0,0,0,1,0,0,0,0,0,GSI Helmholtzzentrum fur Schwerionenforschung,g.lioutas@gsi.de ,49.93206065,8.681902845
+257,Matej,Lipoglavsek,Matej_Lipoglavsek,ChETEC,Slovenia,Faculty,,Senior Participant,0,0,0,0,0,0,0,0,1,Jozef Stefan Institute,matej.lipoglavsek@ijs.si ,46.0421489,14.48820903
+258,Yuri,Litvinov,Yuri_Litvinov,ChETEC,Germany,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,GSI Darmstadt,Y.Litvinov@gsi.de,49.93206065,8.681902845
+259,Zhenghai,Liu,Zhenghai_Liu,CeNAM,USA,Graduate Student,,Participant,1,0,0,1,0,1,1,0,0,North Carolina State University,zliu75@ncsu.edu,35.7714749,-78.6741935
+260,Jizhong,Liu,Jizhong_Liu,CaNPAN,Canada,Graduate Student,,Participant,1,1,1,0,1,0,1,0,0,University of Victoria,jizhongl@triumf.ca,48.4697748,-123.3169956
+261,Jorge,Lopez,Jorge_Lopez,CeNAM,USA,Faculty,M,,0,0,0,1,0,1,0,0,1,University of Texas at El Paso,jorgelopez@utep.edu,31.77570475,-106.5062875
+262,Mallory,Loria,Mallory_Loria,CaNPAN,Canada,Graduate Student,F,Participant,1,1,1,0,0,1,1,0,0,University of Victoria,mkloria@uvic.ca,48.4697748,-123.3169956
+263,Jing,Lu,Jing_Lu,CeNAM,USA,Postdoc,,Participant,1,0,1,1,0,1,0,0,1,Michigan State University,Lujing8@msu.edu,42.70237935,-84.48038687
+264,Gaetano,Luciano,Gaetano_Luciano,ChETEC,Italy,Postdoc,M,,1,0,0,0,0,0,0,1,0,Universita degli Studi di Salerno,gluciano@sa.infn.it,40.75536805,14.78073066
+265,Hans-Guenther,Ludwig,Hans-Guenther_Ludwig,ChETEC,Germany,Faculty,M,Senior Participant,0,0,1,0,0,0,0,0,0,Heidelberg University,hludwig@lsw.uni-heidelberg.de ,49.41931885,8.670203914
+266,Maria,Lugaro,Maria_Lugaro,ChETEC,Hungary,Faculty,F,Senior Participant,0,0,0,0,0,0,0,0,1,Konkoly Observatory,maria.lugaro@csfk.org,47.49973455,18.96302935
+267,Kelsey,Lund,Kelsey_Lund,CeNAM,USA,Graduate Student,F,Participant,0,1,1,0,0,1,1,0,0,North Carolina State University,kalund@ncsu.edu,35.7714749,-78.6741935
+268,Stephanie,Lyons,Stephanie_Lyons,CeNAM,USA,Research Scientist,F,Participant,0,1,0,0,1,0,1,0,1,Pacific Northwest National Laboratory,stephanie.lyons@pnnl.gov,46.3441279,-119.2755502
+269,Ruchi,Mahajan,Ruchi_Mahajan,CeNAM,USA,Postdoc,F,Participant,1,1,1,0,0,1,1,0,1,Michigan State University,mahajan@frib.msu.edu,42.70237935,-84.48038687
+270,Cavan,Maher,Cavan_Maher,CeNAM,USA,Graduate Student,,Participant,1,1,1,1,1,1,0,1,0,Michigan State University,cavan.maher0525@gmail.com,42.70237935,-84.48038687
+271,Ashabari,Majumdar,Ashabari_Majumdar,CeNAM,USA,Graduate Student,,Participant,1,1,1,0,1,1,1,1,1,University of Notre Dame,amajumda@nd.edu,41.70456775,-86.23822026
+272,Mohammad,Mardini,Mohammad_Mardini,UKAKUREN,Japan,Postdoc,M,Participant,0,0,1,1,0,1,1,0,0,"IPMU, the University of Tokyo",m.mardini@ipmu.jp,35.8985302,139.9538878
+273,Jerome,Margueron,Jerome_Margueron,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,1,0,0,1,1,0,Michigan State University/FRIB/IRL_NPA,marguero@frib.msu.edu,42.7240388,-84.472076
+274,Caleb,Marshall,Caleb_Marshall,CeNAM,USA,Postdoc,M,Participant,0,1,0,0,0,0,1,0,0,Ohio University,marshallc@ohio.edu,39.32417815,-82.10156481
+275,Gabriel,Martinez-Pinedo,Gabriel_Martinez-Pinedo,ChETEC,Germany,Faculty,M,Senior Participant,0,0,0,1,0,0,0,1,0,TU Darmstadt,G.Martinez@gsi.de,49.93146155,8.678997963
+276,Enrique,Martinez-Quiroz,Enrique_Martinez-Quiroz,IANNA,Mexico,Faculty,M,Participant,0,1,0,0,0,0,1,0,0,National Institute of Nuclear Research,enrique.martinez@inin.gob.mx,19.3075547,-99.3895718
+277,Karina,Martirosova,Karina_Martirosova,CeNAM,USA,Graduate Student,F,Participant,1,1,0,0,0,0,0,0,0,Michigan State University,martiros@frib.msu.edu,42.70237935,-84.48038687
+278,Javier,Mas Ruiz,Javier_Mas Ruiz,IANNA,Mexico,Postdoc,,Participant,1,1,0,0,1,0,1,0,0,Universidad Nacional Autonoma de Mexico,javier.masruiz91@gmail.com,19.32160295,-99.18493018
+279,Eliana,Masha,Eliana_Masha,ChETEC,Germany,Postdoc,F,Particpant,1,1,0,0,0,0,0,0,0,HZDR,e.masha@hzdr.de,51.057451,13.95331088
+280,Miriam,Matney,Miriam_Matney,CeNAM,USA,Graduate Student,,Participant,1,1,1,0,1,0,1,0,0,University of Notre Dame,mmatney@nd.edu,41.70456775,-86.23822026
+281,Tadafumi,Matsuno,Tadafumi_Matsuno,UKAKUREN,Japan,Faculty,,Senior Participant,0,0,1,0,0,0,0,0,0,NAOJ,tadafumi.matsuno@naoj.ac.jp,35.68351,139.55963
+282,Francesca,Matteucci,Francesca_Matteucci,ChETEC,Italy,Faculty,F,Senior Participant,0,0,0,0,0,0,0,0,1,Trieste University,matteucci@oats.inaf.it,45.6601694,13.79479254
+283,John,McDonaugh,John_McDonaugh,CeNAM,USA,Graduate Student,,Participant,1,1,1,0,0,1,0,0,0,University of Notre Dame,jmcdonau@nd.edu,41.70456775,-86.23822026
+284,Gail,McLaughlin,Gail_McLaughlin,CeNAM,USA,Faculty,F,Participant,0,1,1,1,1,1,1,1,1,North Carolina State University,gail_mclaughlin@ncsu.edu,35.7714749,-78.6741935
+285,Guillermo,Megias,Guillermo_Megias,IANNA,Spain,Faculty,M,Participant,0,0,0,0,0,0,0,1,0,Universidad de Sevilla,megias@us.es,37.3818133,-5.9910238
+286,Zach,Meisel,Zach_Meisel,CeNAM,USA,Faculty,,Participant,0,1,0,0,1,1,1,0,0,Air Force Institute of Technology,zachary.meisel@us.af.mil,39.811129,-84.057308
+287,Melissa,Mendes,Melissa_Mendes,EMMI,Germany,Postdoc,F,Participant,1,0,0,1,0,1,0,0,1,TU Darmstadt,melissa.mendes@physik.tu-darmstadt.de,49.93146155,8.678997963
+288,Alberto,Mengoni,Alberto_Mengoni,ChETEC Infra,Switzerland,Research Scientist,M,Participant,0,1,0,0,1,0,1,0,0,CERN,alberto.mengoni@cern.ch,46.2338702,6.046986918
+289,Jaroslav,Merc,Jaroslav_Merc,ChETEC,Czech Republic,Postdoc,,Participant,1,0,1,0,0,0,0,0,0,Astronomical Institute of Charles University,jaroslav.merc@gmail.com,50.08804,14.42076
+290,Mathias,Michielsen,Mathias_Michielsen,ChETEC,Belgium,Graduate Student,M,Participant,0,0,0,0,0,1,0,0,0,KU Leuven,mathias.michielsen@kuleuven.be ,50.80571285,3.291537449
+291,Philipp,Moesta,Philipp_Moesta,CeNAM,Netherlands,Faculty,M,Participant,0,0,0,1,0,1,0,0,0,University of Amsterdam,p.moesta@uva.nl,52.36813335,4.889804156
+292,Mejdi,Mogannam,Mejdi_Mogannam,CeNAM,USA,Graduate Student,,Participant,1,1,1,0,1,0,1,0,1,Michigan State University,mogannam@frib.msu.edu,42.70237935,-84.48038687
+293,Marta,Molero,Marta_Molero,EMMI,Germany,Postdoc,,Participant,1,0,0,0,0,1,0,0,0,TU Darmstadt,mmolero@theorie.ikp.physik.tu-darmstadt.de,49.93146155,8.678997963
+294,Joey,Mombarg,Joey_Mombarg,ChETEC,Belgium,Graduate Student,M,Participant,0,0,1,0,0,1,0,0,0,KU Leuven,joey.mombarg@kuleuven.be ,50.80571285,3.291537449
+295,Chiranjib,Mondal,Chiranjib_Mondal,ChETEC,Belgium,Postdoc,M,Participant,1,0,0,1,0,0,0,0,0,Universite Libre de Bruxelles,chiranjib.mondal@ulb.be,50.8133117,4.2655726
+296,Fernando,Montes,Fernando_Montes,CeNAM,USA,Faculty,DOE,Senior Participant,0,1,0,0,1,0,0,0,0,Michigan State University,montes@frib.msu.edu,42.70237935,-84.48038687
+297,Shane,Moylan,Shane_Moylan,CeNAM,USA,Graduate Student,M,Participant,0,1,0,0,0,0,0,0,0,University of Notre Dame,smoylan1@nd.edu ,41.70456775,-86.23822026
+298,Darin,Mumma,Darin_Mumma,CeNAM,USA,Graduate Student,,Participant,0,1,0,0,0,0,0,0,0,Louisiana State University,dmumma2@lsu.edu,30.40576185,-91.1859745
+299,Matt,Mumpower,Matt_Mumpower,CeNAM,USA,Research Scientist,M,Senior Participant,0,0,0,0,1,1,1,0,0,Los Alamos National Laboratory,mumpower@lanl.gov,35.8190003,-106.2656274
+300,Alexander,Murphy,Alexander_Murphy,BRIDGCE,UK,Faculty,M,,0,1,0,0,1,1,0,0,0,University of Edinburgh,a.s.murphy@ed.ac.uk,55.94407645,-3.188373556
+301,Shigehiro,Nagataki,Shigehiro_Nagataki,UKAKUREN,Japan,Faculty,,Senior Participant,0,0,0,0,0,0,0,1,0,RIKEN Nishina Center,shigehiro.nagataki@riken.jp,35.78944,139.62333
+302,Pranav,Nalamwar,Pranav_Nalamwar,CeNAM,USA,Graduate Student,M,Participant,1,0,1,0,0,1,1,0,0,University of Notre Dame,pnalamwa@nd.edu ,41.70456775,-86.23822026
+303,Martin,Nava-Callejas,Martin_Nava-Callejas,IANNA,Mexico,Graduate Student,M,Participant,1,1,0,1,0,1,1,1,1,Universidad Nacional Autonoma de Mexico,mnava@astro.unam.mx,19.32160295,-99.18493018
+304,Gerard,Navo,Gerard_Navo,EMMI,Germany,Graduate Student,M,Participant,0,0,0,1,0,1,0,0,0,TU Darmstadt,gnavo@theorie.ikp.physik.tu-darmstadt.de,49.93146155,8.678997963
+305,Witold,Nazarewicz,Witold_Nazarewicz,CeNAM,USA,Faculty,,Participant,0,0,0,0,0,1,1,0,0,Michigan State University,witek@frib.msu.edu,42.70237935,-84.48038687
+306,Felix,Ndayisabye,Felix_Ndayisabye,BRIDGCE,USA,Research Scientist,M,Participant,0,1,0,0,0,0,1,1,0,Michigan State University,felixndayisabye3@gmail.com,42.70237935,-84.48038687
+307,Neerajan,Nepal,Neerajan_Nepal,CeNAM,USA,Graduate Student,,Participant,0,0,0,0,1,1,0,0,0,Central Michigan University,nepal1n@cmich.edu ,43.58354995,-84.77464036
+308,Evan,Ney,Evan_Ney,CeNAM,USA,Graduate Student,M,Participant,0,0,0,1,0,0,1,1,0,University of North Carolina,evan.ney@unc.edu,35.90503535,-79.04775327
+309,Quynh Lan,Nguyen,Quynh Lan_Nguyen,CeNAM,USA,Faculty,,Participant,0,0,0,1,0,0,0,0,0,University of Notre Dame,lnguyen3@nd.edu,41.70456775,-86.23822026
+310,Stylianos,Nikas,Stylianos_Nikas,ChETEC,Finland,Postdoc,M,Participant,0,1,1,0,1,1,1,0,1,University of Jyvaskyla,stylianos.s.nikas@jyu.fi,62.22902785,25.74003691
+311,Nobuya,Nishimura,Nobuya_Nishimura,UKAKUREN,Japan,Research Scientist,M,Participant,0,0,0,0,0,1,1,0,0,RIKEN,nobuya.nishimura@riken.jp ,35.690557,139.743591
+312,Shunji,Nishimura,Shunji_Nishimura,UKAKUREN,Japan,Faculty,M,Senior Participant,0,0,0,0,1,0,0,1,0,RIKEN Nishina Center,nishimu@ribf.riken.jp,35.78944,139.62333
+313,Kitamura,Noritaka,Kitamura_Noritaka,UKAKUREN,Japan,Research Scientist,M,Participant,0,0,0,0,1,0,1,0,0,University of Tokyo,kitamura@cns.s.u-tokyo.ac.jp,35.71171565,139.7637457
+314,Filomena,Nunes,Filomena_Nunes,CeNAM,USA,Faculty,F,Participant,0,1,0,0,0,0,0,0,0,Michigan State University/FRIB,nunes@frib.msu.edu,42.7240388,-84.472076
+315,Deni,Nurkic,Deni_Nurkic,ChETEC,Croatia,Graduate Student,,Participant,0,1,0,0,1,0,1,0,1,University of Zagreb,dnurkic@phy.hr,42.64252845,18.10266379
+316,Martin,Obergaulinger,Martin_Obergaulinger,CeNAM,Germany,Postdoc,,Participant,0,0,0,0,0,1,0,0,0,"IKP, TU Darmstadt",mobergaulinger@theorie.ikp.physik.tu-darmstadt.de ,49.8785782,8.6564527
+317,Evan,OConnor,Evan_OConnor,ChETEC,Sweden,Faculty,M,Senior Participant,0,0,0,1,0,0,0,1,0,Stockholm University,evan.oconnor@astro.su.se,59.366141,18.05959296
+318,Micaela,Oertel,Micaela_Oertel,ChETEC,France,Research Scientist,,Senior Participant,0,0,0,1,0,0,0,1,0,University of Strasbourg,micaela.oertel@obspm.fr,48.60808215,7.714264622
+319,Timilehin,Ogunbeku,Timilehin_Ogunbeku,CeNAM,USA,Postdoc,,Participant,1,1,1,0,1,1,0,0,1,Lawrence Livermore National Laboratory,ogunbeku1@llnl.gov,37.6820273,-121.7062915
+320,Alessandro Alberto,Oliva,Alessandro Alberto_Oliva,ChETEC,Italy,Graduate Student,M,Participant,0,1,0,0,0,0,1,0,0,University of Catania,aoliva@lns.infn.it,37.5036544,15.0871607
+321,Wei Jia,Ong,Wei Jia_Ong,CeNAM,USA,Postdoc,F,Participant,0,1,1,0,1,1,0,0,0,Lawrence Livermore National Laboratory,ong10@llnl.gov,37.6820273,-121.7062915
+322,Jose,Onorbe,Jose_Onorbe,IANNA,Spain,Faculty,M,Participant,0,0,0,0,0,1,0,0,0,Universidad de Sevilla,jonorbe@us.es,37.3818133,-5.9910238
+323,Nils,Paar,Nils_Paar,ChETEC,Croatia,Faculty,M,Senior Participant,0,0,0,0,0,0,0,1,0,University of Zagreb,npaar@phy.hr ,42.64252845,18.10266379
+324,Dany,Page,Dany_Page,IANNA,Mexico,Faculty,M,Participant,0,0,0,1,0,0,0,0,0,Universidad Nacional Autonoma de Mexico,page@astro.unam.mx,19.32160295,-99.18493018
+325,Som,Paneru,Som_Paneru,CeNAM,USA,Graduate Student,,Participant,0,1,0,0,0,0,1,0,0,Ohio University,sp266413@ohio.edu ,39.32417815,-82.10156481
+326,Praneet,Pathak,Praneet_Pathak,NuGRID,Canada,Graduate Student,,Participant,1,1,1,1,1,1,1,1,1,University of Victoria,praneetpathak@uvic.ca,48.4697748,-123.3169956
+327,George,Perdikakis,George_Perdikakis,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,0,0,0,0,0,1,Central Michigan University,perdikak@frib.msu.edu,43.58354995,-84.77464036
+328,Jorge,Pereira,Jorge_Pereira,CeNAM,USA,Research Scientist,M,Participant,0,1,0,1,1,0,0,0,0,Michigan State University,pereira@frib.msu.edu,42.70237935,-84.48038687
+329,Denise,Piatti,Denise_Piatti,ChETEC Infra,Italy,Postdoc,F,Participant,1,1,1,0,0,0,1,0,0,University and INFN of Padova,denise.piatti@pd.infn.it,45.4090372,11.8864421
+330,Norbert,Pietralla,Norbert_Pietralla,ChETEC,Germany,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,TU Darmstadt,pietralla@ikp.tu-darmstadt.de,49.93146155,8.678997963
+331,Marco,Pignatari,Marco_Pignatari,ChETEC,UK,Faculty,M,Senior Participant,0,0,1,0,0,1,1,0,0,University of Hull,mpignatari@gmail.com,53.7710908,-0.368390596
+332,Vinicius,Placco,Vinicius_Placco,CeNAM,USA,Research Scientist,M,Senior Participant,0,0,1,0,0,0,0,0,0,NOIRLab,vinicius.placco@noirlab.edu,32.2332694,-110.9477845
+333,Zsolt,Podolyak,Zsolt_Podolyak,BRIDGCE,UK,Faculty,,,0,0,0,0,1,0,1,0,0,University of Surrey,z.podolyak@surrey.ac.uk,51.24307815,-0.590054488
+334,Francesco,Pogliano,Francesco_Pogliano,CeNAM,Norway,Graduate Student,M,Participant,0,0,0,0,1,0,0,0,0,University of Oslo,francesco.pogliano@fys.uio.no,59.9414173,10.72276834
+335,Sam,Porter,Sam_Porter,CeNAM,USA,Graduate Student,,Participant,1,0,0,0,1,0,1,1,0,University of Notre Dame,wporter@nd.edu,41.70456775,-86.23822026
+336,Rebecca,Preston,Rebecca_Preston,CeNAM,USA,Graduate Student,F,Participant,1,0,0,1,0,1,0,0,1,Texas A&M University,Rpreston3@leomail.TAMUC.edu,30.6108618,-96.35206061
+337,Ana,Prieto,Ana_Prieto,ChETEC,Argentina,Faculty,F,Participant,0,1,0,1,0,1,1,0,1,University of Northern Colorado,anabeatrizprieto@gmail.com,40.4028503,-104.7017242
+338,Thanassis,Psaltis,Thanassis_Psaltis,NuGRID,USA,Postdoc,M,Participant,0,1,0,0,1,0,0,0,1,North Carolina State University / TUNL,psaltis.tha@duke.edu,36.0038696,-78.9430723
+339,Mila,Racca,Mila_Racca,ChETEC Infra,Sweden,Graduate Student,,Participant,1,0,1,0,0,1,0,0,0,Stockholm University,mila.racca@astro.su.se,59.366141,18.05959296
+340,Zarif,Rahman,Zarif_Rahman,CeNAM,USA,Graduate Student,,Participant,1,0,0,0,0,0,0,1,0,Michigan State University,rahman@frib.msu.edu,42.70237935,-84.48038687
+341,Daniela,Ramirez Chavez,Daniela_Ramirez Chavez,CeNAM,USA,Graduate Student,F,Participant,1,1,0,1,0,1,1,0,0,University of Texas at El Paso,dramirezch@miners.utep.edu,31.77570475,-106.5062875
+342,Jaspreet Singh,Randhawa,Jaspreet Singh_Randhawa,CeNAM,USA,Postdoc,M,Participant,1,1,0,0,0,0,1,0,0,University of Notre Dame,jrandhaw@nd.edu,41.70456775,-86.23822026
+343,David,Rapagnani,David_Rapagnani,ChETEC Infra,Italy,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,University of Naples Federico II,david.rapagnani@unina.it,40.8448906,14.257129
+344,Mozhdeh,Rashidazad,Mozhdeh_Rashidazad,CeNAM,USA,Graduate Student,F,Participant,1,1,1,0,0,1,1,0,0,Texas A&M University,Mozhdeh.rashidazad@tamu.edu,30.6108618,-96.35206061
+345,Chirag,Rathi,Chirag_Rathi,CeNAM,USA,Graduate Student,M,Participant,1,1,1,0,0,0,1,0,1,Ohio University,chiragrathi16798@gmail.com,39.32417815,-82.10156481
+346,Ante,Ravlic,Ante_Ravlic,CeNAM,Croatia,Postdoc,M,Participant,0,0,0,1,0,0,0,1,0,Michigan State University,ravlic@frib.msu.edu,42.70237935,-84.48038687
+347,Rafael,Rebolo,Rafael_Rebolo,ChETEC,Spain,Faculty,M,Senior Participant,0,0,1,0,0,0,0,0,0,IAC Canary Islands,rrl@iac.es,28.47470255,-16.30822075
+348,Sanjay,Reddy,Sanjay_Reddy,CeNAM,USA,Faculty,M,Core Participant,0,0,0,1,0,0,0,0,0,University of Washington,sareddy@uw.edu,47.65566435,-122.3027072
+349,Moritz,Reichert,Moritz_Reichert,ChETEC,Spain,Postdoc,M,Participant,0,1,1,0,1,0,0,0,0,University of Valencia,moritz.reichert@uv.es,39.4768614,-0.38672407
+350,Rene,Reifarth,Rene_Reifarth,ChETEC,Germany,Faculty,M,Senior Participant,0,1,0,0,0,1,1,0,0,Universitat Frankfurt IAP,reifarth@physik.uni-frankfurt.de,50.1277641,8.6695088
+351,Luciano,Rezzolla,Luciano_Rezzolla,EMMI,Germany,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,Goethe University,rezzolla@itp.uni-frankfurt.de,50.1272173,8.667622789
+352,Andrea,Richard,Andrea_Richard,CeNAM,USA,Faculty,F,Participant,0,1,1,0,1,0,1,0,1,Ohio University,richarda1@ohio.edu,39.32417815,-82.10156481
+353,Federico,Rizzuti,Federico_Rizzuti,BRIDGCE,UK,Graduate Student,M,Participant,1,1,1,0,0,1,0,0,0,Keele University,f.rizzuti@keele.ac.uk,53.0016756,-2.270694219
+354,Lorenzo,Roberti,Lorenzo_Roberti,NuGRID,Hungary,Postdoc,M,Participant,1,1,1,0,0,1,0,0,0,Konkoly Observatory,lorenzo.roberti@csfk.org,47.49973455,18.96302935
+355,Luke,Roberts,Luke_Roberts,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,1,0,0,1,1,0,Michigan State University,RobertsL@frib.msu.edu,42.70237935,-84.48038687
+356,Dan,Robertson,Dan_Robertson,CeNAM,USA,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,University of Notre Dame,drobert4@nd.edu,41.70456775,-86.23822026
+357,Caroline,Robin,Caroline_Robin,CeNAM,USA,Postdoc,F,Participant,0,0,0,0,0,0,0,1,0,University of Washington,carolr8@uw.edu ,47.65566435,-122.3027072
+358,Manuela,Rodriguez-Gallardo,Manuela_Rodriguez-Gallardo,IANNA,Spain,Faculty,F,Participant,0,1,0,0,0,0,0,0,0,Universidad de Sevilla,mrodri@us.es,37.3818133,-5.9910238
+359,Friedrich,Roepke,Friedrich_Roepke,ChETEC,Germany,Faculty,M,Senior Participant,0,1,1,0,0,1,0,1,0,Heidelberg University,friedrich.roepke@h-its.org,49.41931885,8.670203914
+360,Zachary,Rogers,Zachary_Rogers,ChETEC Infra,UK,Graduate Student,,Participant,1,0,1,0,0,1,1,0,1,University of Hull,z.j.rogers-2021@hull.ac.uk,53.7710908,-0.368390596
+361,Eleanor,Ronning,Eleanor_Ronning,CeNAM,USA,Graduate Student,F,Participant,1,1,0,0,0,0,0,1,0,Michigan State University,ronning@frib.msu.edu,42.70237935,-84.48038687
+362,Michael,Roosa,Michael_Roosa,CeNAM,USA,Graduate Student,M,Participant,1,1,0,0,1,0,0,0,1,Texas A&M University,roosa@tamu.edu,30.6108618,-96.35206061
+363,Stephan,Rosswog,Stephan_Rosswog,ChETEC,Sweden,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,Stockholm University,stephan.rosswog@astro.su.se,59.366141,18.05959296
+364,Aaron,Rowntree,Aaron_Rowntree,ChETEC Infra,UK,Graduate Student,,Participant,1,0,1,0,0,1,1,0,1,University of Hull,a.rowntree-2018@hull.ac.uk,53.7710908,-0.368390596
+365,Chris,Ruiz,Chris_Ruiz,CaNPAN,Canada,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,TRIUMF,ruiz@triumf.ca,49.2475133,-123.2304555
+366,Tuomo,Salmi,Tuomo_Salmi,CeNAM,Netherlands,Postdoc,,Participant,1,0,0,1,0,1,0,0,1,University of Amsterdam,t.h.j.salmi@uva.nl,52.36813335,4.889804156
+367,Sithira,Samaranayake,Sithira_Samaranayake,CeNAM,USA,Graduate Student,,Participant,0,1,0,0,1,0,0,0,1,Central Michigan University,sithi1ss@cmich.edu ,43.58354995,-84.77464036
+368,Jennifer,Sanchez Rojo,Jennifer_Sanchez Rojo,CaNPAN,Canada,Postdoc,F,Participant,1,1,0,0,1,0,0,0,0,TRIUMF,jsrojo@triumf.ca,49.2475133,-123.2304555
+369,Angel Miguel,Sanchez-Benitez,Angel Miguel_Sanchez-Benitez,IANNA,Spain,Faculty,M,Participant,0,1,0,0,0,0,0,0,0,Universidad de Huelva,angel.sanchez@dfaie.uhu.es,37.2700864,-6.9253024
+370,Christian,Sand,Christian_Sand,CRC881,Germany,Graduate Student,M,Participant,0,0,0,0,0,1,0,0,0,Heidelberg Institute for Theoretical Studies,christian.sand@h-its.org,49.4153802,8.7365752
+371,Andreas,Sander,Andreas_Sander,BRIDGCE,Germany,Research Scientist,,,0,0,1,0,0,1,0,0,0,Heidelberg University,andreas.sander@uni-heidelberg.de,49.41931885,8.670203914
+372,Shahab,Sanjari,Shahab_Sanjari,ChETEC,Germany,Research Scientist,,Participant,0,1,0,0,1,0,1,1,0,GSI Darmstadt,s.sanjari@gsi.de,49.93206065,8.681902845
+373,John,Santucci,John_Santucci,CeNAM,USA,Graduate Student,M,Participant,0,1,0,1,0,0,1,0,0,Texas A&M University,jsantucci98@tamu.edu,30.6108618,-96.35206061
+374,Rick,Sarmento,Rick_Sarmento,CeNAM,USA,Faculty,M,Participant,0,0,0,0,0,1,0,0,0,USA Naval Academy,sarmento@usna.edu ,38.9844493,-76.4856605
+375,Masaki,Sasano,Masaki_Sasano,UKAKUREN,Japan,Faculty,,Senior Participant,0,0,0,0,0,0,0,1,0,RIKEN Nishina Center,sasano@ribf.riken.jp,35.78944,139.62333
+376,Guy,Savard,Guy_Savard,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,0,1,0,0,0,0,Argonne National Laboratory,savard@anl.gov,41.70914095,-87.97862213
+377,Mansi,Saxena,Mansi_Saxena,CeNAM,USA,Postdoc,F,Participant,0,1,0,0,1,1,0,0,1,Ohio University,saxenam@ohio.edu,39.32417815,-82.10156481
+378,Evan,Scannapieco,Evan_Scannapieco,CeNAM,USA,Faculty,M,Participant,0,0,1,0,0,1,0,0,1,Arizona State University,evan.scannapieco@asu.edu,33.4213174,-111.9331631
+379,Juergen,Schaffner,Juergen_Schaffner,EMMI,Germany,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,Goethe University,schaffner@astro.uni-frankfurt.de,50.1272173,8.667622789
+380,Jurgen,Schaffner-Bielich,Jurgen_Schaffner-Bielich,EMMI,Germany,Faculty,M,Participant,0,0,0,1,0,0,0,0,0,Goethe University,schaffner@astro.uni-frankfurt.de,50.1272173,8.667622789
+381,Hendrik,Schatz,Hendrik_Schatz,CeNAM,USA,Faculty,M,Core Participant,0,1,0,0,0,0,1,1,1,Michigan State University,schatz@frib.msu.edu,42.70237935,-84.48038687
+382,Konrad,Schmidt,Konrad_Schmidt,ChETEC Infra,Germany,Research Scientist,M,Participant,0,1,0,0,1,0,0,0,0,Helmholtz-Zentrum Dresden-Rossendorf,konrad.schmidt@hzdr.de,51.057451,13.95331088
+383,Jaclyn,Schmitt,Jaclyn_Schmitt,CeNAM,USA,Graduate Student,F,Participant,0,0,0,1,0,0,0,0,0,Michigan State University,schmittj@frib.msu.edu ,42.70237935,-84.48038687
+384,Achim,Schwenk,Achim_Schwenk,EMMI,Germany,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,TU Darmstadt,schwenk@physik.tu-darmstadt.de,49.93146155,8.678997963
+385,Laura,Scott,Laura_Scott,ChETEC,UK,Graduate Student,,Participant,0,0,0,0,0,1,0,0,0,Keele University,l.j.a.scott@keele.ac.uk,53.0016756,-2.270694219
+386,Amal,Sebastian,Amal_Sebastian,CeNAM,USA,Graduate Student,,Participant,1,1,0,0,1,0,1,0,0,Michigan State University,sebastia@frib.msu.edu,42.70237935,-84.48038687
+387,Armen,Sedrakian,Armen_Sedrakian,EMMI,Germany,Faculty,,Senior Participant,0,0,0,1,0,0,0,0,0,Goethe University,sedrakian@fias.uni-frankfurt.de,50.1272173,8.667622789
+388,Sanjay,Sekaran,Sanjay_Sekaran,ChETEC,Belgium,Graduate Student,M,Participant,0,0,0,0,0,1,0,0,0,KU Leuven,sanjay.sekaran@kuleuven.be ,50.80571285,3.291537449
+389,Shivani,Shah,Shivani_Shah,CeNAM,USA,Graduate Student,F,Participant,1,1,1,1,1,1,1,1,1,University of Florida,shivani.shah@ufl.edu,29.6328837,-82.34901302
+390,Shahina,Shahina,Shahina_Shahina,CeNAM,USA,Graduate Student,F,Participant,1,1,1,1,1,1,1,1,1,University of Notre Dame,sshahina@nd.edu,41.70456775,-86.23822026
+391,Derek,Shank,Derek_Shank,CeNAM,USA,Graduate Student,,Participant,0,0,1,0,0,0,0,0,0,University of Notre Dame,dshank1@nd.edu ,41.70456775,-86.23822026
+392,Swapnil,Shankar,Swapnil_Shankar,CeNAM,Netherlands,Graduate Student,,Participant,1,0,0,1,0,1,0,0,0,University of Amsterdam,s.shankar@uva.nl,52.36813335,4.889804156
+393,Josh,Shields,Josh_Shields,CeNAM,USA,Postdoc,,Participant,1,0,1,1,0,0,0,0,0,Michigan State University,shield90@msu.edu,42.70237935,-84.48038687
+394,Ragandeep Singh,Sidhu,Ragandeep Singh_Sidhu,EMMI,UK,Postdoc,M,Participant,1,1,0,0,0,0,0,1,0,University of Edinburgh,ragan.sidhu@ed.ac.uk,55.94407645,-3.188373556
+395,Andre,Sieverding,Andre_Sieverding,CeNAM,USA,Research Scientist,M,Participant,0,0,0,0,0,1,0,1,0,Lawrence Livermore National Laboratory,sieverding2@llnl.gov,37.6820273,-121.7062915
+396,Anna,Simon-Robertson,Anna_Simon-Robertson,CeNAM,USA,Faculty,F,Participant,0,1,1,0,0,1,1,0,0,University of Notre Dame,anna.simon@nd.edu,41.70456775,-86.23822026
+397,Jaideep,Singh,Jaideep_Singh,CeNAM,USA,Faculty,,Participant,0,1,0,0,0,0,0,0,1,Michigan State University,singhj@frib.msu.edu,42.70237935,-84.48038687
+398,Jakub,Skowronski,Jakub_Skowronski,ChETEC Infra,Italy,Postdoc,,Participant,1,1,1,0,1,0,1,0,0,Universita degli Studi di Padova,jakub.skowronski@pd.infn.it,45.4090372,11.8864421
+399,Mackenzie,Smith,Mackenzie_Smith,CeNAM,USA,Graduate Student,F,Participant,1,1,0,0,1,1,1,0,0,Michigan State University,smithmac@frib.msu.edu,42.70237935,-84.48038687
+400,Mallory,Smith,Mallory_Smith,CeNAM,USA,Research Scientist,F,Participant,0,1,0,0,1,0,1,0,1,Michigan State University/FRIB,smithma@frib.msu.edu ,42.7240388,-84.472076
+401,Neven,Soic,Neven_Soic,ChETEC,Croatia,Faculty,M,Senior Participant,0,0,0,0,0,0,0,0,1,Ruder Boskovic Institute,soic@lnr.irb.hr,45.8296219,15.9879508
+402,Doug,Soltesz,Doug_Soltesz,CeNAM,USA,Graduate Student,M,Participant,0,1,0,0,0,0,1,0,0,Ohio University,Ds149513@ohio.edu ,39.32417815,-82.10156481
+403,Theodoros,Soultanis,Theodoros_Soultanis,EMMI,Germany,Graduate Student,M,Participant,0,0,0,1,0,1,0,0,0,Max Planck Institute for Astronomy/ Heidelberg Institute for Theoretical Studies,theodoros.soultanis@h-its.org ,49.3954011,8.7234095
+404,Artemis,Spyrou,Artemis_Spyrou,CeNAM,USA,Faculty,F,Senior Participant,0,0,0,0,1,0,0,1,1,Michigan State University,spyrou@frib.msu.edu,42.70237935,-84.48038687
+405,Richard,Stancliffe,Richard_Stancliffe,NuGRID,UK,Postdoc,M,Participant,0,1,1,0,0,1,0,0,0,University of Hull,R.Stancliffe@hull.ac.uk,53.7710908,-0.368390596
+406,Charles,Stapleford,Charles_Stapleford,CeNAM,USA,Graduate Student,M,Participant,0,0,0,1,0,0,0,1,1,North Carolina State University,cjstaple@ncsu.edu ,35.7714749,-78.6741935
+407,Andrew,Steiner,Andrew_Steiner,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,University of Tennessee,awsteiner@utk.edu,35.9515612,-83.93087999
+408,Ilya,Straumit,Ilya_Straumit,ChETEC,Belgium,Graduate Student,,Participant,0,0,1,0,0,1,0,0,0,KU Leuven,ilya.straumit@kuleuven.be ,50.80571285,3.291537449
+409,Shiv,Subedi,Shiv_Subedi,CeNAM,USA,Graduate Student,M,Participant,0,1,1,0,1,1,1,0,1,Ohio University,ss383615@ohio.edu ,39.32417815,-82.10156481
+410,Irin,Sultana,Irin_Sultana,CeNAM,USA,Graduate Student,F,Participant,0,1,0,0,1,0,0,0,1,Central Michigan University,sulta1c@cmich.edu ,43.58354995,-84.77464036
+411,Lijie,Sun,Lijie_Sun,CeNAM,USA,Postdoc,,Participant,1,1,0,0,0,0,1,0,0,Michigan State University,sunli@frib.msu.edu,42.70237935,-84.48038687
+412,Jason,Surbrook,Jason_Surbrook,CeNAM,USA,Graduate Student,M,Participant,1,0,0,0,0,0,0,1,0,Michigan State University,surbrook@frib.msu.edu,42.70237935,-84.48038687
+413,Rebeca,Surman,Rebeca_Surman,CeNAM,USA,Faculty,F,Senior Participant,0,0,0,0,1,0,0,0,0,University of Notre Dame,rsurman@nd.edu,41.70456775,-86.23822026
+414,Toshio,Suzuki,Toshio_Suzuki,UKAKUREN,Japan,Faculty,M,Senior Participant,0,0,0,0,0,0,0,1,0,Nihon University,suzuki@phys.chs.nihon-u.ac.jp,35.69715535,139.7625818
+415,Anna,Swartz,Anna_Swartz,CeNAM,USA,Research Scientist,F,Participant,1,1,1,1,1,1,1,1,1,Michigan State University,swartzan@frib.msu.edu,42.70237935,-84.48038687
+416,Balazs,Szanyi,Balazs_Szanyi,CeNAM,Hungary,Graduate Student,M,Participant,1,1,1,0,1,1,1,0,0,Konkoly Observatory,szanyi.balazs@csfk.org,47.49973455,18.96302935
+417,Jose,Tain,Jose_Tain,ChETEC,Spain,Faculty,M,Senior Participant,0,0,0,0,0,0,1,0,0,Universidad de Valencia,tain@ific.uv.es,39.471889,-0.373138716
+418,Atsushi,Tamii,Atsushi_Tamii,UKAKUREN,Japan,Faculty,,Senior Participant,0,0,0,0,0,0,0,1,0,Osaka University,tamii@rcnp.osaka-u.ac.jp,34.51119925,135.631448
+419,Wanpeng,Tan,Wanpeng_Tan,CeNAM,USA,Faculty,M,Senior Participant,0,1,0,0,0,0,0,0,0,University of Notre Dame,wtan@nd.edu,41.70456775,-86.23822026
+420,Morgan,Taylor,Morgan_Taylor,CeNAM,USA,Graduate Student,F,Participant,0,1,1,1,0,1,0,0,1,Arizona State University,taylormorgan32@gmail.com ,33.4213174,-111.9331631
+421,Ingo,Tews,Ingo_Tews,CeNAM,USA,Research Scientist,M,Participant,0,0,0,1,0,0,0,0,0,Los Alamos National Laboratory,itews@lanl.gov,35.8190003,-106.2656274
+422,Pierre,Thibodeaux,Pierre_Thibodeaux,CeNAM,USA,Graduate Student,,Participant,1,0,1,0,1,1,0,0,0,University of Chicago,pthibodeaux@uchicago.edu,41.784977,-87.59052371
+423,Friedrich,Thielemann,Friedrich_Thielemann,ChETEC,Switzerland,Faculty,M,Participant,0,1,1,1,1,1,1,1,0,University of Basel,f-k.thielemann@unibas.ch,47.55853735,7.582636263
+424,Anne,Thoul,Anne_Thoul,ChETEC,Belgium,Faculty,F,Senior Participant,0,0,0,0,0,1,0,0,0,University of Liege,Anne.Thoul@uliege.be,50.63686015,5.562425232
+425,Alexander,Tichai,Alexander_Tichai,EMMI,Germany,Postdoc,M,Participant,0,0,0,0,0,0,1,0,0,TU Darmstadt,a_tichai@theorie.ikp.physik.tu-darmstadt.de,49.93146155,8.678997963
+426,Frank,Timmes,Frank_Timmes,CeNAM,USA,Faculty,M,Core Participant,0,0,0,0,0,1,0,0,0,Arizona State University,fxt44@mac.com,33.4213174,-111.9331631
+427,Isabela,Tisma,Isabela_Tisma,ChETEC,Hungary,Postdoc,F,Participant,1,1,1,0,0,0,1,0,0,Ruder Boskovic Institute,isabela.tisma@irb.hr,45.8296219,15.9879508
+428,Andrew,Tkachenko,Andrew_Tkachenko,ChETEC,Belgium,Postdoc,M,Participant,0,0,1,0,0,0,0,0,0,"Institute of Astronomy, KU Leuven",andrew.tkachenko@kuleuven.be,50.8627998,4.6769219
+429,Livius,Trache,Livius_Trache,ChETEC Infra,Romania,Faculty,M,Participant,0,1,0,0,0,0,0,0,1,IFIN-HH,livius.trache@nipne.ro,44.3510994,26.04721224
+430,Claudia,Travaglio,Claudia_Travaglio,ChETEC Infra,Italy,Research Scientist,F,Senior Participant,0,0,0,0,0,1,0,0,0,INAF Italy,claudia.travaglio@inaf.it,41.9238199,12.4525936
+431,Thomas,Trueman,Thomas_Trueman,NuGRID,UK,Graduate Student,M,Participant,0,0,1,0,0,1,0,0,0,University of Hull,tomtrueman@hotmail.com ,53.7710908,-0.368390596
+432,Jose,Trujillo,Jose_Trujillo,CaNPAN,Canada,Graduate Student,M,Participant,1,1,1,0,0,0,0,0,0,University of Calgary,Jose.trujillo@ucalgary.ca,51.07505395,-114.1387617
+433,Artemis,Tsantiri,Artemis_Tsantiri,CeNAM,USA,Graduate Student,F,Participant,1,1,0,0,1,0,0,0,0,Michigan State University,tsantiri@msu.edu,42.70237935,-84.48038687
+434,Pelagia,Tsintari,Pelagia_Tsintari,CeNAM,USA,Postdoc,F,Participant,1,1,0,0,0,0,0,0,0,Michigan State University,tsintari@frib.msu.edu,42.70237935,-84.48038687
+435,Yusuke,Tsunoda,Yusuke_Tsunoda,UKAKUREN,Japan,Postdoc,M,Participant,0,0,0,0,0,0,0,1,0,University of Tokyo,ytsunoda@cns.s.u-tokyo.ac.jp,35.71171565,139.7637457
+436,Aurora,Tumino,Aurora_Tumino,ChETEC,Italy,Faculty,F,Participant,0,1,1,0,0,0,1,0,0,INFN-LNS,tumino@lns.infn.it ,37.5241326,15.0698469
+437,Nathan,Turi,Nathan_Turi,CeNAM,USA,Research Scientist,M,Participant,0,1,0,0,0,0,0,0,0,Michigan State University,Nate.MTuri@gmail.com,42.70237935,-84.48038687
+438,Stefan,Typel,Stefan_Typel,EMMI,Germany,Faculty,M,Senior Participant,0,0,0,1,0,0,0,0,0,GSI Darmstadt,S.Typel@gsi.de,49.93206065,8.681902845
+439,Tomohiro,Uesaka,Tomohiro_Uesaka,UKAKUREN,Japan,Faculty,,Senior Participant,0,0,0,0,1,0,0,0,0,RIKEN Nishina Center,uesaka@riken.jp,35.78944,139.62333
+440,Claudio,Ugalde,Claudio_Ugalde,CeNAM,USA,Faculty,M,Participant,0,1,1,0,0,1,0,0,0,University of Illinois,cugalde@uic.edu,40.07615445,-88.22331341
+441,Chad,Ummel,Chad_Ummel,CeNAM,USA,Graduate Student,,Participant,0,1,0,0,1,0,0,0,0,Rutgers University,chadummel@physics.rutgers.edu,40.4929778,-74.44510808
+442,Sriteja,Upadhyayula,Sriteja_Upadhyayula,CeNAM,Canada,Postdoc,M,Participant,0,1,1,0,1,0,0,0,1,TRIUMF,sriteja@triumf.ca,49.2475133,-123.2304555
+443,Sivahami,Uthayakumaar,Sivahami_Uthayakumaar,CeNAM,USA,Postdoc,,Participant,1,1,1,1,1,0,1,0,1,Michigan State University/FRIB,uthayaku@frib.msu.edu,42.7240388,-84.472076
+444,Jordan,Van Beeck,Jordan_Van Beeck,ChETEC,Belgium,Graduate Student,,Participant,0,0,1,0,0,1,0,0,1,KU Leuven,jordan.vanbeeck@kuleuven.be ,50.80571285,3.291537449
+445,Freeke,van de Voort,Freeke_van de Voort,BRIDGCE,UK,Faculty,,,0,0,1,0,0,1,0,0,0,Cardiff University,freeke@astro.cf.ac.uk,51.49332655,-3.186036971
+446,Timothy,Van Reeth,Timothy_Van Reeth,ChETEC,Belgium,Postdoc,M,Participant,0,0,0,0,0,1,0,0,1,"Institute of Astronomy, KU Leuven",timothy.vanreeth@kuleuven.be ,50.8627998,4.6769219
+447,Lieke,van Son,Lieke_van Son,ChETEC,USA,Postdoc,F,Participant,0,0,1,1,0,1,0,0,1,Princeton University and Flatiron Institute,lieke.van.son@cfa.harvard.edu ,40.7404832,-73.9905849
+448,Vishnu,Varma,Vishnu_Varma,BRIDGCE,UK,Postdoc,M,Participant,1,0,0,1,0,1,0,0,0,Keele University,v.r.vejayan@keele.ac.uk,53.0016756,-2.270694219
+449,Nicole,Vassh,Nicole_Vassh,CaNPAN,Canada,Research Scientist,,Participant,0,1,1,0,1,1,1,0,0,TRIUMF,nvassh@triumf.ca,49.2475133,-123.2304555
+450,Parth,Vats,Parth_Vats,CaNPAN,Canada,Graduate Student,,Participant,1,1,0,0,0,1,0,0,0,University of Victoria,parthvats19@gmail.com,48.4697748,-123.3169956
+451,Alejandro,Vegas Diaz,Alejandro_Vegas Diaz,IANNA,Spain,Graduate Student,M,Participant,1,1,0,0,0,0,0,0,0,Universidad de Sevilla,avegas@us.es,37.3818133,-5.9910238
+452,Phong,Vi,Phong_Vi,UKAKUREN,Japan,Postdoc,,Participant,1,0,0,0,1,0,1,1,0,RIKEN Nishina Center,phong@ribf.riken.jp,35.78944,139.62333
+453,Fiorenzo,Vincenzo,Fiorenzo_Vincenzo,ChETEC Infra,UK,Faculty,M,Participant,0,1,1,0,0,1,1,0,1,University of Hull,f.vincenzo@hull.ac.uk,53.7710908,-0.368390596
+454,Serena,Vinciguerra,Serena_Vinciguerra,CeNAM,Netherlands,Postdoc,F,Participant,1,0,0,1,0,1,0,0,1,University of Amsterdam,s.vinciguerra@uva.nl,52.36813335,4.889804156
+455,Jorick,Vink,Jorick_Vink,BRIDGCE,UK,Faculty,,,0,0,0,0,0,1,0,0,0,Armagh Observatory and Planetarium,jorick.vink@armagh.ac.uk,54.352201,-6.645739
+456,Alexander,Voinov,Alexander_Voinov,CeNAM,USA,Faculty,M,Senior Participant,0,1,0,0,0,0,1,0,0,Ohio University,voinov@ohio.edu,39.32417815,-82.10156481
+457,Louis,Wagner,Louis_Wagner,CeNAM,USA,Research Scientist,M,Participant,0,1,1,0,1,0,0,0,0,Michigan State University,wagnerl@frib.msu.edu,42.70237935,-84.48038687
+458,Kailong,Wang,Kailong_Wang,CeNAM,USA,Postdoc,,Participant,0,0,0,0,1,0,0,0,0,Central Michigan University,wang5k@cmich.edu ,43.58354995,-84.77464036
+459,Xilu,Wang,Xilu_Wang,CeNAM,USA,Postdoc,,Participant,0,0,1,1,1,1,1,1,0,University of Notre Dame,xwang50@nd.edu,41.70456775,-86.23822026
+460,Yutaka,Watanabe,Yutaka_Watanabe,UKAKUREN,Japan,Faculty,,Senior Participant,0,0,0,0,1,0,0,0,0,KEK High Energy Accelerator Research Organization,yutaka.watanabe@kek.jp,36.1516751,140.0725669
+461,Anna,Watts,Anna_Watts,CeNAM,Netherlands,Faculty,F,Participant,0,0,0,1,0,1,0,0,1,University of Amsterdam,A.L.Watts@uva.nl,52.36813335,4.889804156
+462,Kaitlin,Webber,Kaitlin_Webber,CeNAM,USA,Graduate Student,F,Participant,1,0,1,0,0,0,0,0,0,Texas A&M University,kbwebber@tamu.edu,30.6108618,-96.35206061
+463,Lexanne,Weghorn,Lexanne_Weghorn,CeNAM,USA,Graduate Student,,Participant,1,1,0,0,0,0,0,0,0,Michigan State University,weghorn@frib.msu.edu,42.70237935,-84.48038687
+464,Benjamin,Wehmeyer,Benjamin_Wehmeyer,ChETEC Infra,Poland,Faculty,M,Participant,0,0,1,0,0,1,0,0,0,University of Wroclaw,benjamin.wehmeyer@uwr.edu.pl,51.1058732,17.0631808
+465,Janet,Weikel,Janet_Weikel,CeNAM,USA,Research Scientist,F,Participant,0,1,1,1,1,1,1,1,1,University of Notre Dame,weikel.5@nd.edu,41.70456775,-86.23822026
+466,Benjamin,Wellons,Benjamin_Wellons,CeNAM,USA,Graduate Student,M,Participant,0,1,0,1,0,0,1,0,0,Texas A&M University,bswellons@tamu.edu,30.6108618,-96.35206061
+467,Tyler,Wheeler,Tyler_Wheeler,CeNAM,USA,Graduate Student,M,Participant,0,1,1,1,1,1,1,1,1,Michigan State University,wheelert@frib.msu.edu,42.70237935,-84.48038687
+468,Erin,White,Erin_White,CeNAM,USA,Graduate Student,F,Participant,0,1,0,0,0,0,1,0,1,Michigan State University,whiteer@frib.msu.edu ,42.70237935,-84.48038687
+469,Michael,Wiescher,Michael_Wiescher,CeNAM,USA,Faculty,M,Core Participant,0,1,0,0,0,0,0,0,0,University of Notre Dame,mwiesche@nd.edu,41.70456775,-86.23822026
+470,Matthew,Williams,Matthew_Williams,CeNAM,Canada,Postdoc,M,Participant,1,0,0,0,1,0,1,0,0,TRIUMF, mwilliams@triumf.ca,49.2475133,-123.2304555
+471,Noah,Wolfe,Noah_Wolfe,CeNAM,USA,Graduate Student,M,Participant,0,0,0,1,0,1,0,0,0,North Carolina State University,newolfe@ncsu.edu ,35.7714749,-78.6741935
+472,Kate,Womack,Kate_Womack,ChETEC Infra,UK,Graduate Student,F,Participant,0,1,1,0,0,1,1,0,1,University of Hull,k.a.womack-2017@hull.ac.uk,53.7710908,-0.368390596
+473,Paul,Woodward,Paul_Woodward,CeNAM,USA,Faculty,M,Senior Participant,0,0,0,0,0,1,0,0,0,University of Minnesota,paul@lcse.umn.edu,44.73962875,-93.12845084
+474,Clare,Worley,Clare_Worley,BRIDGCE,UK,Postdoc,F,Participant,0,0,0,0,0,0,0,0,1,University of Cambridge,ccworley@ast.cam.ac.uk,52.21094555,0.092004976
+475,Chris,Wrede,Chris_Wrede,CeNAM,USA,Faculty,M,Participant,0,1,0,0,0,0,0,0,1,Michigan State University,wrede@frib.msu.edu,42.70237935,-84.48038687
+476,Yi,Xu,Yi_Xu,ChETEC Infra,Romania,Postdoc,,Participant,0,0,0,0,0,0,0,0,0,Horia Hulubei National Institute for Research and Development in Physics and Nuclear Engineering (IFIN-HH),xuyixuyi2012@gmail.com,44.3513331,26.0435119
+477,Theodora,Xylakis-Dornbusch,Theodora_Xylakis-Dornbusch,CRC881,Germany,Graduate Student,F,Participant,0,0,1,0,0,0,0,0,0,Heidelberg University,t.xylaki@lsw.uni-heidelberg.de ,49.41931885,8.670203914
+478,Chandrabhan,Yadav,Chandrabhan_Yadav,CeNAM,Israel,Postdoc,,Participant,0,1,0,0,0,0,0,0,0,Hebrew University of Jerusalem,chandrabhan.yadav@mail.huji.ac.il,31.7918555,35.244723
+479,Andres,Yague Lopez,Andres_Yague Lopez,NuGRID,USA,Research Scientist,M,Participant,0,1,1,0,0,1,0,0,0,Los Alamos National Laboratory,ayaguelopez@lanl.gov,35.8190003,-106.2656274
+480,Hidetoshi,Yamaguchi,Hidetoshi_Yamaguchi,UKAKUREN,Japan,Faculty,,Participant,0,1,1,0,0,0,0,0,0,"CNS, the University of Tokyo",yamag@cns.s.u-tokyo.ac.jp,35.9019845,139.9362233
+481,Nobutoshi,Yasutake,Nobutoshi_Yasutake,UKAKUREN,Japan,Faculty,,Participant,0,0,0,1,0,0,0,0,0,Chiba Institute of Technology,nobutoshi.yasutake@p.chibakoudai.jp,35.6888667,140.0211756
+482,Rob,Yates,Rob_Yates,BRIDGCE,UK,Faculty,M,Participant,0,0,0,0,0,1,0,0,0,University of Hertfordshire,r.yates3@herts.ac.uk,51.75174425,-0.239049794
+483,Rin,Yokoyama,Rin_Yokoyama,UKAKUREN,Japan,Faculty,,Participant,0,0,0,0,1,0,1,0,0,"CNS, the University of Tokyo",yokoyama@cns.s.u-tokyo.ac.jp,35.9019845,139.9362233
+484,Jinmi,Yoon,Jinmi_Yoon,CeNAM,USA,Research Scientist,F,Participant,0,0,1,0,0,1,0,0,1,Space Telescope Science Institute,jyoon@stsci.edu,39.3329284,-76.623172
+485,Remco,Zegers,Remco_Zegers,CeNAM,USA,Faculty,M,Core Participant,0,0,0,1,0,0,1,1,1,Michigan State University,zegers@frib.msu.edu,42.70237935,-84.48038687
+486,Andreas,Zilges,Andreas_Zilges,ChETEC,Germany,,M,Senior Participant,0,1,0,0,0,0,0,0,0,Universitat zu Koeln,zilges@ikp.uni-koeln.de,50.92804455,6.928130515
+487,Leah,Zimmer,Leah_Zimmer,CeNAM,USA,Graduate Student,,Participant,1,1,0,0,0,0,1,0,0,University of Notre Dame,lzimmer4@nd.edu,41.70456775,-86.23822026
+488,McKenzie,Myers,McKenzie_Myers,CeNAM,USA,Graduate Student,,Participant,1,0,1,0,0,1,0,1,0,North Carolina State University,mamyers4@ncsu.edu,35.7714749,-78.6741935
+489,Andrew,Rogers,Andrew_Rogers,CeNAM,USA,Faculty,,Participant,0,1,0,0,0,1,1,0,0,University of Massachussets Lowell,Andrew_Rogers@uml.edu,42.6499,-71.323

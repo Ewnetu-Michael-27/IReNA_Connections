@@ -181,7 +181,7 @@ st.write("FA7: Weak Interactions")
 st.write("FA8: Professional Development and Broadening Participation")
 st.write("")
 
-data_2=pd.read_csv("data_main_09.csv")
+data_2=pd.read_csv("data_main_09_rep.csv")
 
 
 FA=["YRO","FA1","FA2","FA3","FA4","FA5","FA6","FA7","FA8"]

@@ -23,7 +23,7 @@ st.image(image)
 
 st.header("The purpose of this page is to allow the user interact with IReNA data and learn about the members.", divider="red")
 
-data=pd.read_csv("data_main_09.csv")
+data=pd.read_csv("data_main_09_rep.csv")
 
 
 

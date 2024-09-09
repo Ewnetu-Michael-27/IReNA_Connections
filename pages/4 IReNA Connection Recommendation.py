@@ -28,7 +28,7 @@ st.title("IReNA Connection Recommendation")
 if "AQ" not in st.session_state:
     st.session_state["AQ"]=False
 
-data_a=pd.read_csv("data_main_09.csv")
+data_a=pd.read_csv("data_main_09_rep.csv")
 data=pd.read_csv("data_06_19.csv")
 
 with open("graph_trial.pkl", "rb") as f:

@@ -8,6 +8,7 @@ import math
 import pickle
 import plotly.graph_objs as go
 import plotly.express as px
+import sqlalchemy import create_engine
 
 st.set_page_config(
     page_title="IReNA Demo", 
@@ -17,13 +18,35 @@ st.set_page_config(
 
 st.sidebar.success("Select further options")
 
+
 st.title("IReNA Demo")
 image=Image.open("IReNA.png")
 st.image(image)
 
 st.header("The purpose of this page is to allow the user interact with IReNA data and learn about the members.", divider="red")
 
-data=pd.read_csv("data_main_09_rep.csv")
+#data=pd.read_csv("data_main_09_rep.csv")
+
+DATABASE_URL = "postgresql://postgres:IReNA@localhost:5432/IReNA_membership"
+engine = create_engine(DATABASE_URL)
+
+def test_connection():
+    try:
+        with engine.connect() as conn:
+            conn.execute("SELECT 1")
+       #st.success("Connection successful!")
+    except Exception as e:
+        st.error(f"Connection to IReNA database failed: {e}")
+
+test_connection()
+
+def load_members():
+    query = "SELECT * FROM members"
+    with engine.connect() as conn:
+        df = pd.read_sql(query, conn)
+    return df
+
+data=load_members()
 
 
 

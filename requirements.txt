@@ -9,4 +9,5 @@ torch==2.3.1+cpu
 torch-geometric
 -f https://data.pyg.org/whl/torch-2.3.1+cpu.html
 sqlalchemy 
+psycopg2-binary
 

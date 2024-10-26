@@ -10,6 +10,7 @@ import torch.nn.functional as F
 import networkx as nx
 import plotly.graph_objs as go
 import plotly.express as px
+from sqlalchemy import create_engine, text
 
 st.set_page_config(
     page_title="IReNA Connections",
@@ -23,8 +24,18 @@ st.title("IReNA Connections")
 #loading the graph data
 #graph_M=nx.read_gexf("graph_trial.gexf")
 
-data=pd.read_csv("data_main_09_rep.csv")
+#data=pd.read_csv("data_main_09_rep.csv")
+def init_connection():
+    return create_engine("postgresql://IReNA_membership_owner:LiheZVPl1DS0@ep-still-frost-a8bel6ne.eastus2.azure.neon.tech/IReNA_membership?sslmode=require")
 
+@st.cache_resource
+def get_engine():
+    return init_connection()
+
+engine=get_engine()
+with engine.connect() as conn:
+    query=text("SELECT * FROM members")
+    data=pd.read_sql(query, conn)
 
 with open("graph_trial.pkl", "rb") as f:
     graph_trial=pickle.load(f)

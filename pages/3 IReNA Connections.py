@@ -398,6 +398,7 @@ with open("pub_info.pkl", "rb") as f:
 
 options_8=st.selectbox("Select an IReNA member ID", node)
 nodes=get_connections(graph_trial, options_8)
+st.write(nodes)
 
 
 if st.button("Apply Queery"):

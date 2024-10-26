@@ -403,7 +403,6 @@ nodes=get_connections(graph_trial, options_8)
 
 if st.button("Apply Queery"):
     st.write(options_8, " is an author in ", str(dict_pub_info[options_8]), " out of the 149 papers. See the",str(len(nodes))  ," connections in the IReNA database below" )
-    st.write(data[data["ID"].isin(nodes)])
     data_s=data[data["ID"].isin(nodes)][["ID", "Home Institution", "Country", "Position"]].reset_index(drop=True)
     st.dataframe(data_s)
 

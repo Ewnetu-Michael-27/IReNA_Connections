@@ -9,7 +9,7 @@ from sklearn.metrics import roc_auc_score
 import torch.nn.functional as F 
 import networkx as nx
 import plotly.graph_objs as go
-
+from sqlalchemy import create_engine, text
 
 st.set_page_config(
     page_title="IReNA Connection Recommendation", 
@@ -28,7 +28,21 @@ st.title("IReNA Connection Recommendation")
 if "AQ" not in st.session_state:
     st.session_state["AQ"]=False
 
-data_a=pd.read_csv("data_main_09_rep.csv")
+#data_a=pd.read_csv("data_main_09_rep.csv")
+
+def init_connection():
+    return create_engine("postgresql://IReNA_membership_owner:LiheZVPl1DS0@ep-still-frost-a8bel6ne.eastus2.azure.neon.tech/IReNA_membership?sslmode=require")
+
+@st.cache_resource
+def get_engine():
+    return init_connection()
+
+engine=get_engine()
+with engine.connect() as conn:
+    query=text("SELECT * FROM members")
+    data_a=pd.read_sql(query, conn)
+
+
 data=pd.read_csv("data_06_19.csv")
 
 with open("graph_trial.pkl", "rb") as f:

@@ -268,13 +268,12 @@ for e in pl_edges:
 network_color_map={
     'BRIDGCE':'#7f7f7f', #gray
     'CaNPAN':'#98df8a', #light green
-    'CeNAM':'#9467bd', #Purple 
     'ChETEC':'#e377c2', #pink
     'ChETEC Infra':'#ff7f0e', #Orange
     'CRC881':'#ffbb78',#light Orange 
     'EMMI':'#2ca02c', #green
     'IANNA':'yellow', #yellow
-    'JINA-CEE':'#1f77b4', #blue
+    'JINA-CEE/CeNAM':'#1f77b4', #blue
     'NuGRID':'#17becf', #cyan
     'UKAKUREN':'#bcbd22', #yellow-green
 }

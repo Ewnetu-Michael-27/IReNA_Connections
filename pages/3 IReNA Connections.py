@@ -417,15 +417,16 @@ if st.button("Apply Queery"):
     graph_trial_2.add_node(options_8, Latitude=Latitude, Longitude=Longitude)
 
     for i in nodes:
-
-        val=data[data["ID"]==i]
-        Latitude=val["Latitude"].values[0]
-        Longitude=val["Longitude"].values[0]
-
-        graph_trial_2.add_node(i, Latitude=Latitude, Longitude=Longitude)
+        if i in set(data["ID"]):
+            val=data[data["ID"]==i]
+            Latitude=val["Latitude"].values[0]
+            Longitude=val["Longitude"].values[0]
+    
+            graph_trial_2.add_node(i, Latitude=Latitude, Longitude=Longitude)
 
     for i in range(len(nodes)):
-        graph_trial_2.add_edge(options_8, nodes[i])   
+        if nodes[i] in set(data["ID"]):
+            graph_trial_2.add_edge(options_8, nodes[i])   
 
     #Extract data to define the `scattermapbox` trace for graph nodes:
     node_data=list(graph_trial_2.nodes(data=True))

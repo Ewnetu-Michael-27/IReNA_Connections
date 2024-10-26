@@ -5,6 +5,7 @@ import pickle
 import plotly.graph_objs as go
 import networkx as nx 
 import plotly.express as px
+from sqlalchemy import create_engine, text
 
 st.set_page_config(
     page_title="IReNA Membership Insight", 
@@ -181,8 +182,20 @@ st.write("FA7: Weak Interactions")
 st.write("FA8: Professional Development and Broadening Participation")
 st.write("")
 
-data_2=pd.read_csv("data_main_09_rep.csv")
+#############################################################################################################
+#data_2=pd.read_csv("data_main_09_rep.csv")
+def init_connection():
+    return create_engine("postgresql://IReNA_membership_owner:LiheZVPl1DS0@ep-still-frost-a8bel6ne.eastus2.azure.neon.tech/IReNA_membership?sslmode=require")
 
+@st.cache_resource
+def get_engine():
+    return init_connection()
+
+engine=get_engine()
+with engine.connect() as conn:
+    query=text("SELECT * FROM members")
+    data_2=pd.read_sql(query, conn)
+###############################################################################################################
 
 FA=["YRO","FA1","FA2","FA3","FA4","FA5","FA6","FA7","FA8"]
 option_10A=st.selectbox("Choose Focus Area from the following options to see membership distribution", FA)
